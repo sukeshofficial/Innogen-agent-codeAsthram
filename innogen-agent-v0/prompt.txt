@@ -1,0 +1,52 @@
+Now let me tell you what every file does here you just ask me the code whenever needed and modify it don't just generate code I have everything working.
+
+./scrapper:
+    block_catalog.json -> [{
+        "type": "text_literal",
+        "category": "essentials",
+        "module": "Text"
+    }, ...]
+
+    execute_xml.js -> this will clear canvas; enter xml; and then generate Python code;
+
+    page_scrapper.js -> process and scraps all the informations such as
+        {
+            "type": "text_literal",
+            "category": "essentials",
+            "module": "Text",
+            "kind": "expression",
+            "fields": [
+            "TEXT"
+            ],
+            "value_inputs": [],
+            "statement_inputs": [],
+            "xml_template": "<block xmlns=\"https://developers.google.com/blockly/xml\" type=\"text_literal\"><field name=\"TEXT\"></field></block>",
+            "python_sample": "''\n"
+        }
+    from stores the blocks_db.json
+
+    runner_execute.js -> runs the execute_xml.js and takes the xml code and stores in ./output/result.tx (Python code) and ./output/result.xml (XML code)
+
+./assembler:
+    generate_xml.js -> Read validated block tree from Python (LLM) output and generate xml and write it in ./output/program.xml
+    normalize_blocks.js -> this will give ./output/normalized_blocks.json {
+        "type": "text_literal",
+        "category": "essentials",
+        "module": "Text",
+        "kind": "expression",
+        "fields": {
+        "TEXT": "<value>"
+        },
+        "value_inputs": {},
+        "statement_inputs": {},
+        "xml_template": "<block type=\"text_literal\"><field name=\"TEXT\"></field></block>",
+        "python_sample": "''"
+    },
+
+./agent:
+    ./data/normalized_blocks.json -> copy of the existing normalized_blocks.json in assembler.
+    ./planner:
+        block_knowledge.py -> retrieve_relevant_blocks and format_for_llm
+        planner.py -> main LLM connection Load block knowledge (RAG), Build prompts, Output RAW JSON ONLY
+        prompt.py -> system_prompt and user_prompt
+        retry_loop.py -> export_tree, call_planner, validate_with_node, generate_valid_block_tree

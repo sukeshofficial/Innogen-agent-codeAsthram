@@ -1,0 +1,6 @@
+[
+  {
+    "problem_id": "PID-0006",
+    "description": "A candidate qualifies only if written score is at least 60 interview score at least 15 and total does not exceed 100. Python code: written_score = int(input(\"Enter written score: \")) interview_score = int(input(\"Enter interview score: \")) total_score = written_score + interview_score if written_score >= 60 and interview_score >= 15 and total_score <= 100: print(\"Candidate qualifies\") else: print(\"Candidate does not qualify\") "
+  }
+]

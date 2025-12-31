@@ -1,0 +1,9 @@
+{
+  "team_id": "TEAM_ID0602",
+  "problems": [
+    {
+      "problem_id": "PID-0006",
+      "description": "A candidate qualifies only if written score is at least 60 interview score at least 15 and total does not exceed 100."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "type": "essentials_num_arithmetic",
+  "fields": {
+    "OP": "+"
+  },
+  "value_inputs": {
+    "written_score": {
+      "type": "essentials_num_literal",
+      "fields": {
+        "NUM": 60
+      }
+    },
+    "interview_score": {
+      "type": "essentials_num_literal",
+      "fields": {
+        "NUM": 15
+      }
+    }
+  },
+  "statement_inputs": {
+    "total_score": {
+      "type": "essentials_num_arithmetic",
+      "fields": {
+        "OP": "+"
+      },
+      "value_inputs": {
+        "written_score": {
+          "type": "essentials_num_literal",
+          "fields": {
+            "NUM": 60
+          }
+        },
+        "interview_score": {
+          "type": "essentials_num_literal",
+          "fields": {
+            "NUM": 15
+          }
+        }
+      },
+      "statement_inputs": {}
+    },
+    "qualifies": {
+      "type": "essentials_compare",
+      "fields": {
+        "OP": "="
+      },
+      "value_inputs": {
+        "candidate_qualifies": {
+          "type": "essentials_num_literal",
+          "fields": {
+            "NUM": 1
+          }
+        },
+        "does_not_qualify": {
+          "type": "essentials_num_literal",
+          "fields": {
+            "NUM": 0
+          }
+        }
+      },
+      "statement_inputs": {}
+    }
+  }
+}

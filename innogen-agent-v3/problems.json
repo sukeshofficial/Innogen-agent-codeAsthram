@@ -1,0 +1,25 @@
+{
+  "team_id": "TEAM_ID0602",
+  "problems": [
+    {
+      "problem_id": "PID-0006",
+      "description": "A candidate qualifies only if written score is at least 60 interview score at least 15 and total does not exceed 100."
+    },
+    {
+      "problem_id": "PID-0007",
+      "description": "Determine whether two numeric ranges overlap."
+    },
+    {
+      "problem_id": "PID-0008",
+      "description": "A container must hold between 200 and 500 units. Find the first value that violates this."
+    },
+    {
+      "problem_id": "PID-0009",
+      "description": "Check whether three sides can form a valid triangle."
+    },
+    {
+      "problem_id": "PID-0010",
+      "description": "Admission is granted only if math is at least 70 science is at least 65 and average is at least 75."
+    }
+  ]
+}

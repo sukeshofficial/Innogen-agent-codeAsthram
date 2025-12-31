@@ -1,0 +1,2674 @@
+[
+  {
+    name: "Essentials",
+    themeKey: "essentials",
+    modules: [
+      {
+        name: "Text",
+        blocks: [
+          {
+            type: "text_literal",
+          },
+          {
+            type: "text_multiline",
+          },
+          {
+            type: "text_concat",
+          },
+          {
+            type: "text_format",
+          },
+          {
+            type: "text_length",
+          },
+          {
+            type: "text_substring",
+          },
+          {
+            type: "text_search",
+          },
+          {
+            type: "text_transform",
+          },
+          {
+            type: "text_split_join",
+          },
+          {
+            type: "text_replace",
+          },
+          {
+            type: "text_html_transform",
+          },
+          {
+            type: "text_is_empty",
+          },
+          {
+            type: "text_newline",
+          },
+          {
+            type: "text_tab",
+          },
+          {
+            type: "text_print",
+          },
+          {
+            type: "text_print_fstring",
+          },
+        ],
+      },
+      {
+        name: "Numbers",
+        blocks: [
+          {
+            type: "essentials_num_literal",
+          },
+          {
+            type: "essentials_num_arithmetic",
+          },
+          {
+            type: "essentials_num_neg",
+          },
+          {
+            type: "essentials_num_abs",
+          },
+          {
+            type: "essentials_num_round",
+          },
+          {
+            type: "essentials_num_clamp",
+          },
+          {
+            type: "essentials_num_compare",
+          },
+          {
+            type: "essentials_num_min",
+          },
+          {
+            type: "essentials_num_max",
+          },
+          {
+            type: "essentials_num_rand_int",
+          },
+          {
+            type: "essentials_num_rand_float",
+          },
+          {
+            type: "essentials_expr_group",
+          },
+        ],
+      },
+      {
+        name: "Lists",
+        blocks: [
+          {
+            type: "essentials_list_create",
+          },
+          {
+            type: "essentials_list_from_range",
+          },
+          {
+            type: "essentials_list_length",
+          },
+          {
+            type: "essentials_list_get",
+          },
+          {
+            type: "essentials_list_set",
+          },
+          {
+            type: "essentials_list_statements",
+          },
+          {
+            type: "essentials_list_expressions",
+          },
+          {
+            type: "essentials_list_index_of",
+          },
+          {
+            type: "essentials_list_slice",
+          },
+          {
+            type: "essentials_list_sort",
+          },
+          {
+            type: "essentials_list_reverse",
+          },
+          {
+            type: "essentials_list_map",
+          },
+          {
+            type: "essentials_list_filter",
+          },
+          {
+            type: "essentials_list_reduce",
+          },
+          {
+            type: "essentials_list_flatten",
+          },
+          {
+            type: "essentials_list_unique",
+          },
+          {
+            type: "essentials_list_chunk",
+          },
+          {
+            type: "essentials_list_enumerate",
+          },
+          {
+            type: "lists_shuffle_in_place",
+          },
+        ],
+      },
+      {
+        name: "Sorting",
+        blocks: [
+          {
+            type: "sorted_block",
+          },
+          {
+            type: "list_sort_block",
+          },
+          {
+            type: "key_builder_block",
+          },
+          {
+            type: "multi_key_sort_block",
+          },
+          {
+            type: "reverse_view_block",
+          },
+          {
+            type: "argsort_helper_block",
+          },
+          {
+            type: "stable_sort_info_block",
+          },
+          {
+            type: "sorting_master_block",
+          },
+          {
+            type: "reverse_toggle_block",
+          },
+          {
+            type: "key_dict_item_block",
+          },
+          {
+            type: "heapq_select_block",
+          },
+        ],
+      },
+      {
+        name: "Tuples",
+        blocks: [
+          {
+            type: "essentials_tuple_create",
+          },
+          {
+            type: "essentials_tuple_from_list",
+          },
+          {
+            type: "essentials_tuple_to_list",
+          },
+          {
+            type: "essentials_tuple_unpack",
+          },
+          {
+            type: "essentials_namedtuple_define",
+          },
+          {
+            type: "essentials_dataclass_stub",
+          },
+          {
+            type: "tuples_count",
+          },
+          {
+            type: "tuples_index",
+          },
+        ],
+      },
+      {
+        name: "Sets",
+        blocks: [
+          {
+            type: "essentials_set_create",
+          },
+          {
+            type: "essentials_set_add",
+          },
+          {
+            type: "essentials_set_remove",
+          },
+          {
+            type: "essentials_set_union",
+          },
+          {
+            type: "essentials_set_intersection",
+          },
+          {
+            type: "essentials_set_difference",
+          },
+          {
+            type: "essentials_set_symmetric_difference",
+          },
+          {
+            type: "essentials_set_contains",
+          },
+          {
+            type: "essentials_set_is_subset",
+          },
+          {
+            type: "essentials_set_is_superset",
+          },
+        ],
+      },
+      {
+        name: "Dictionaries",
+        blocks: [
+          {
+            type: "essentials_dict_create",
+          },
+          {
+            type: "essentials_dict_statements",
+          },
+          {
+            type: "essentials_dict_expressions",
+          },
+          {
+            type: "essentials_dict_update",
+          },
+          {
+            type: "essentials_dict_merge_shallow",
+          },
+          {
+            type: "essentials_dict_deep_merge",
+          },
+          {
+            type: "essentials_dict_get_nested",
+          },
+          {
+            type: "essentials_registry_register",
+          },
+          {
+            type: "essentials_registry_call",
+          },
+        ],
+      },
+      {
+        name: "Variables & Types",
+        blocks: [
+          {
+            type: "essentials_import_simple",
+          },
+          {
+            type: "essentials_scope_keyword",
+          },
+          {
+            type: "essentials_var_set",
+          },
+          {
+            type: "essentials_var_get",
+          },
+          {
+            type: "essentials_var_undefined",
+          },
+          {
+            type: "essentials_is_instance",
+          },
+          {
+            type: "essentials_type_of",
+          },
+          {
+            type: "essentials_cast",
+          },
+          {
+            type: "essentials_default_if_none",
+          },
+        ],
+      },
+      {
+        name: "Classes & OOP",
+        blocks: [
+          {
+            type: "oop_class",
+          },
+          {
+            type: "oop_constructor",
+          },
+          {
+            type: "oop_method",
+          },
+          {
+            type: "oop_super_init",
+          },
+          {
+            type: "oop_super_call",
+          },
+        ],
+      },
+      {
+        name: "Logic & Booleans",
+        blocks: [
+          {
+            type: "essentials_bool_true",
+          },
+          {
+            type: "essentials_bool_false",
+          },
+          {
+            type: "essentials_logic_and",
+          },
+          {
+            type: "essentials_logic_or",
+          },
+          {
+            type: "essentials_logic_not",
+          },
+          {
+            type: "essentials_compare",
+          },
+          {
+            type: "essentials_in_operator",
+          },
+          {
+            type: "essentials_not_in_operator",
+          },
+          {
+            type: "essentials_ternary",
+          },
+          {
+            type: "essentials_assert",
+          },
+        ],
+      },
+      {
+        name: "Logging & IO (safe)",
+        blocks: [
+          {
+            type: "essentials_log_info",
+          },
+          {
+            type: "essentials_log_warn",
+          },
+          {
+            type: "essentials_log_error",
+          },
+          {
+            type: "essentials_safe_input",
+          },
+          {
+            type: "essentials_input_raw",
+          },
+          {
+            type: "essentials_logging_basic_config",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Control & Computation",
+    themeKey: "control_computation",
+    modules: [
+      {
+        name: "Conditionals",
+        blocks: [
+          {
+            type: "if_block",
+          },
+          {
+            type: "control_match",
+          },
+          {
+            type: "control_condition_expr",
+          },
+          {
+            type: "control_logical_combine",
+          },
+          {
+            type: "control_if_truthy",
+          },
+          {
+            type: "control_if_main",
+          },
+          {
+            type: "control_pass_simple",
+          },
+        ],
+      },
+      {
+        name: "Loops",
+        blocks: [
+          {
+            type: "controls_repeat_ext",
+          },
+          {
+            type: "controls_whileUntil",
+          },
+          {
+            type: "controls_for",
+          },
+          {
+            type: "controls_forEach",
+          },
+          {
+            type: "controls_flow_statements",
+          },
+          {
+            type: "control_for_indexed",
+          },
+          {
+            type: "control_for_zip",
+          },
+          {
+            type: "control_flow_break_continue",
+          },
+          {
+            type: "control_while_true_inline",
+          },
+        ],
+      },
+      {
+        name: "Functions & Calls",
+        blocks: [
+          {
+            type: "essentials_function_def",
+          },
+          {
+            type: "procedures_callnoreturn",
+          },
+          {
+            type: "procedures_callreturn",
+          },
+          {
+            type: "control_lambda_expr",
+          },
+          {
+            type: "control_partial_apply",
+          },
+          {
+            type: "control_function_decorator",
+          },
+          {
+            type: "control_function_docstring",
+          },
+          {
+            type: "functions_callable",
+          },
+          {
+            type: "control_return",
+          },
+        ],
+      },
+      {
+        name: "Comprehensions",
+        blocks: [
+          {
+            type: "control_list_comp",
+          },
+          {
+            type: "control_dict_comp",
+          },
+          {
+            type: "control_dict_zip_comp",
+          },
+          {
+            type: "control_set_comp",
+          },
+          {
+            type: "control_gen_expr",
+          },
+        ],
+      },
+      {
+        name: "Operators & advanced math",
+        blocks: [
+          {
+            type: "math_single",
+          },
+          {
+            type: "math_ops_multi",
+          },
+          {
+            type: "control_math_stats",
+          },
+          {
+            type: "control_decimal_create",
+          },
+          {
+            type: "control_fraction_create",
+          },
+          {
+            type: "control_complex_create",
+          },
+          {
+            type: "control_accumulate",
+          },
+        ],
+      },
+      {
+        name: "Error handling",
+        blocks: [
+          {
+            type: "control_try_except",
+          },
+          {
+            type: "control_try_except_finally",
+          },
+          {
+            type: "control_try_except_else_finally",
+          },
+          {
+            type: "control_raise_exception",
+          },
+        ],
+      },
+      {
+        name: "Iterators & Generators",
+        blocks: [
+          {
+            type: "iterators_yield",
+          },
+          {
+            type: "iterators_yield_from",
+          },
+          {
+            type: "iterators_generator_function",
+          },
+          {
+            type: "iterators_safe_next",
+          },
+          {
+            type: "iterators_generator_expression",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Text & Localization",
+    themeKey: "text_localization",
+    modules: [
+      {
+        name: "Core Text",
+        blocks: [
+          {
+            type: "text_normalize_unicode",
+          },
+          {
+            type: "text_remove_accents",
+          },
+          {
+            type: "text_slugify",
+          },
+          {
+            type: "text_fix_encoding",
+          },
+        ],
+      },
+      {
+        name: "Regex & parsing",
+        blocks: [
+          {
+            type: "text_re_search",
+          },
+          {
+            type: "text_re_match",
+          },
+          {
+            type: "text_re_findall",
+          },
+          {
+            type: "text_re_replace",
+          },
+          {
+            type: "text_re_split",
+          },
+          {
+            type: "text_regex_flags",
+          },
+        ],
+      },
+      {
+        name: "Templating",
+        blocks: [
+          {
+            type: "text_template_render_jinja",
+          },
+          {
+            type: "text_template_safe_render",
+          },
+        ],
+      },
+      {
+        name: "i18n & localization",
+        blocks: [
+          {
+            type: "text_i18n_register",
+          },
+          {
+            type: "text_i18n_translate",
+          },
+          {
+            type: "text_i18n_plural",
+          },
+          {
+            type: "text_i18n_set_locale",
+          },
+          {
+            type: "text_i18n_get_locale",
+          },
+          {
+            type: "text_alt_text_generate",
+          },
+        ],
+      },
+      {
+        name: "Text utilities",
+        blocks: [
+          {
+            type: "text_to_lines",
+          },
+          {
+            type: "text_indent",
+          },
+          {
+            type: "text_unindent",
+          },
+          {
+            type: "text_preview",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "I/O & Formats",
+    themeKey: "io_formats",
+    modules: [
+      {
+        name: "File (virtual FS safe)",
+        blocks: [
+          {
+            type: "io_fs_read",
+          },
+          {
+            type: "io_fs_write",
+          },
+          {
+            type: "io_fs_append",
+          },
+          {
+            type: "io_fs_delete",
+          },
+          {
+            type: "io_fs_exists",
+          },
+          {
+            type: "io_fs_listdir",
+          },
+          {
+            type: "io_fs_mkdir",
+          },
+          {
+            type: "io_fs_tempfile",
+          },
+          {
+            type: "io_fs_copy",
+          },
+        ],
+      },
+      {
+        name: "File I/O",
+        blocks: [
+          {
+            type: "io_fs_open",
+          },
+          {
+            type: "io_fs_file_mode",
+          },
+          {
+            type: "io_fs_read_lines",
+          },
+          {
+            type: "io_fs_write_lines",
+          },
+        ],
+      },
+      {
+        name: "JSON / CSV / YAML",
+        blocks: [
+          {
+            type: "io_json_load",
+          },
+          {
+            type: "io_json_dump",
+          },
+          {
+            type: "io_csv_read",
+          },
+          {
+            type: "io_csv_write",
+          },
+          {
+            type: "io_yaml_load",
+          },
+          {
+            type: "io_yaml_dump",
+          },
+        ],
+      },
+      {
+        name: "Streams & bytes",
+        blocks: [
+          {
+            type: "io_bytes_from_text",
+          },
+          {
+            type: "io_text_from_bytes",
+          },
+          {
+            type: "io_stream_read_chunk",
+          },
+          {
+            type: "io_stream_write_chunk",
+          },
+        ],
+      },
+      {
+        name: "Serialization (safe)",
+        blocks: [
+          {
+            type: "io_serialize_json_safe",
+          },
+          {
+            type: "io_deserialize_json_safe",
+          },
+          {
+            type: "io_serialize_msgpack",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Data Structures & Shapes",
+    themeKey: "data_structures",
+    modules: [
+      {
+        name: "Sequences",
+        blocks: [
+          {
+            type: "data_structures_seq_concat",
+          },
+          {
+            type: "data_structures_seq_repeat",
+          },
+          {
+            type: "data_structures_seq_slice_step",
+          },
+          {
+            type: "data_structures_seq_sorted_by",
+          },
+          {
+            type: "data_structures_seq_zip",
+          },
+          {
+            type: "data_structures_seq_transpose",
+          },
+          {
+            type: "data_structures_seq_chunk",
+          },
+          {
+            type: "data_structures_seq_window",
+          },
+        ],
+      },
+      {
+        name: "Mappings",
+        blocks: [
+          {
+            type: "data_structures_map_get_path",
+          },
+          {
+            type: "data_structures_map_set_path",
+          },
+          {
+            type: "data_structures_map_flatten",
+          },
+          {
+            type: "data_structures_map_unflatten",
+          },
+          {
+            type: "data_structures_map_filter_by_value",
+          },
+          {
+            type: "data_structures_map_keys_to_list",
+          },
+          {
+            type: "data_structures_map_items_to_list",
+          },
+          {
+            type: "data_structures_map_invert",
+          },
+        ],
+      },
+      {
+        name: "Records",
+        blocks: [
+          {
+            type: "data_structures_record_define_namedtuple",
+          },
+          {
+            type: "data_structures_record_define_dataclass",
+          },
+          {
+            type: "data_structures_record_instantiate",
+          },
+          {
+            type: "data_structures_record_to_dict",
+          },
+          {
+            type: "data_structures_record_from_dict",
+          },
+        ],
+      },
+      {
+        name: "Immutable & Persistent helpers",
+        blocks: [
+          {
+            type: "data_structures_frozen_map",
+          },
+          {
+            type: "data_structures_frozen_list",
+          },
+        ],
+      },
+      {
+        name: "Registry & plugin patterns",
+        blocks: [
+          {
+            type: "data_structures_registry_create",
+          },
+          {
+            type: "data_structures_registry_register",
+          },
+          {
+            type: "data_structures_registry_unregister",
+          },
+          {
+            type: "data_structures_registry_list",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Networking",
+    themeKey: "networking",
+    modules: [
+      {
+        name: "HTTP Requests",
+        blocks: [
+          {
+            type: "requests_get",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Web Server",
+    themeKey: "web_server",
+    modules: [
+      {
+        name: "FastAPI",
+        blocks: [
+          {
+            type: "fastapi_create_app",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Database",
+    themeKey: "database",
+    modules: [
+      {
+        name: "SQLAlchemy Core",
+        blocks: [],
+      },
+      {
+        name: "SQLite3",
+        blocks: [
+          {
+            type: "sqlite_connect",
+          },
+          {
+            type: "sqlite_execute",
+          },
+          {
+            type: "sqlite_fetchall",
+          },
+          {
+            type: "sqlite_close",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Concurrency & Async",
+    themeKey: "concurrency_async",
+    modules: [
+      {
+        name: "Threading / executor",
+        blocks: [
+          {
+            type: "concurrency_thread_start",
+          },
+          {
+            type: "concurrency_thread_join",
+          },
+          {
+            type: "concurrency_thread_pool_submit",
+          },
+          {
+            type: "concurrency_future_result",
+          },
+          {
+            type: "concurrency_thread_lock_acquire",
+          },
+          {
+            type: "concurrency_thread_lock_release",
+          },
+        ],
+      },
+      {
+        name: "Async (asyncio safe wrappers)",
+        blocks: [
+          {
+            type: "concurrency_async_def",
+          },
+          {
+            type: "concurrency_await_block",
+          },
+          {
+            type: "concurrency_async_sleep",
+          },
+          {
+            type: "concurrency_async_gather",
+          },
+          {
+            type: "concurrency_async_http_get",
+          },
+        ],
+      },
+      {
+        name: "Queues / synchronization",
+        blocks: [
+          {
+            type: "concurrency_queue_put",
+          },
+          {
+            type: "concurrency_queue_get",
+          },
+          {
+            type: "concurrency_event_wait_set_clear",
+          },
+          {
+            type: "concurrency_semaphore_acquire_release",
+          },
+        ],
+      },
+      {
+        name: "Scheduling",
+        blocks: [
+          {
+            type: "concurrency_schedule_every",
+          },
+          {
+            type: "concurrency_schedule_once",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Automation & DevOps",
+    themeKey: "automation_devops",
+    admin: 0,
+    modules: [
+      {
+        name: "Safe shell & commands",
+        blocks: [
+          {
+            type: "automation_cmd_run_safe",
+          },
+          {
+            type: "automation_cmd_user_confirm",
+          },
+          {
+            type: "automation_cmd_capture_output",
+          },
+          {
+            type: "automation_subprocess_run",
+          },
+          {
+            type: "system_env_get",
+          },
+        ],
+      },
+      {
+        name: "SSH & remote ops",
+        admin: 0,
+        blocks: [
+          {
+            type: "automation_ssh_connect",
+          },
+          {
+            type: "automation_ssh_run",
+          },
+          {
+            type: "automation_scp_upload",
+          },
+          {
+            type: "automation_scp_download",
+          },
+        ],
+      },
+      {
+        name: "Containers & infra",
+        admin: 0,
+        blocks: [
+          {
+            type: "automation_docker_run",
+          },
+          {
+            type: "automation_terraform_apply",
+          },
+          {
+            type: "automation_ansible_run",
+          },
+        ],
+      },
+      {
+        name: "Automation helpers",
+        blocks: [
+          {
+            type: "automation_ci_trigger",
+          },
+          {
+            type: "automation_artifact_upload",
+          },
+          {
+            type: "automation_artifact_download",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Pandas",
+    themeKey: "pandas",
+    modules: [
+      {
+        name: "Data Access & Creation",
+        blocks: [
+          {
+            type: "pandas_io_format_transfer",
+          },
+          {
+            type: "pandas_structure_factory",
+          },
+          {
+            type: "pandas_json_normalize",
+          },
+          {
+            type: "pandas_to_dict",
+          },
+          {
+            type: "pandas_interval",
+          },
+          {
+            type: "pandas_period_index",
+          },
+          {
+            type: "pandas_timedelta_index",
+          },
+        ],
+      },
+      {
+        name: "Inspection & Metadata",
+        blocks: [
+          {
+            type: "dataframe_peek",
+          },
+          {
+            type: "dataframe_property_or_metadata",
+          },
+          {
+            type: "pandas_value_counts",
+          },
+          {
+            type: "pandas_unique",
+          },
+          {
+            type: "pandas_nunique",
+          },
+          {
+            type: "validate_property",
+          },
+          {
+            type: "pandas_idxmin",
+          },
+          {
+            type: "pandas_idxmax",
+          },
+        ],
+      },
+      {
+        name: "Data Cleaning & Types",
+        blocks: [
+          {
+            type: "http_request_simple",
+          },
+          {
+            type: "missing_data_handler",
+          },
+          {
+            type: "pandas_to_datetime",
+          },
+          {
+            type: "dataframe_select_dtypes",
+          },
+          {
+            type: "pandas_drop_duplicates",
+          },
+          {
+            type: "pandas_duplicated",
+          },
+          {
+            type: "pandas_astype",
+          },
+          {
+            type: "pandas_round",
+          },
+          {
+            type: "pandas_clip",
+          },
+          {
+            type: "pandas_replace",
+          },
+          {
+            type: "pandas_astype_category",
+          },
+          {
+            type: "series_cat_accessor",
+          },
+          {
+            type: "pandas_str_strip",
+          },
+          {
+            type: "pandas_str_replace",
+          },
+        ],
+      },
+      {
+        name: "Selection & Filtering",
+        blocks: [
+          {
+            type: "dataframe_data_selector",
+          },
+          {
+            type: "pandas_sort_values",
+          },
+          {
+            type: "pandas_drop",
+          },
+          {
+            type: "pandas_set_index",
+          },
+          {
+            type: "pandas_reset_index",
+          },
+          {
+            type: "pandas_reindex",
+          },
+          {
+            type: "pandas_sort_index",
+          },
+          {
+            type: "dataframe_droplevel",
+          },
+          {
+            type: "dataframe_set_names",
+          },
+          {
+            type: "pandas_isin",
+          },
+          {
+            type: "pandas_where",
+          },
+          {
+            type: "pandas_mask",
+          },
+          {
+            type: "dataframe_xs",
+          },
+          {
+            type: "data_structures_record_define_dataclass_auto",
+          },
+          {
+            type: "data_structures_record_define_namedtuple_annotated",
+          },
+        ],
+      },
+      {
+        name: "Data Manipulation (Join/Reshape)",
+        blocks: [
+          {
+            type: "combine_dataframes",
+          },
+          {
+            type: "pandas_pivot_table",
+          },
+          {
+            type: "pandas_rename",
+          },
+          {
+            type: "pandas_get_dummies",
+          },
+          {
+            type: "pandas_factorize",
+          },
+          {
+            type: "pandas_squeeze",
+          },
+          {
+            type: "pandas_compare",
+          },
+          {
+            type: "pandas_merge_advanced",
+          },
+          {
+            type: "pandas_pivot",
+          },
+          {
+            type: "pandas_melt",
+          },
+          {
+            type: "pandas_explode",
+          },
+          {
+            type: "pandas_transpose",
+          },
+          {
+            type: "pandas_crosstab",
+          },
+          {
+            type: "series_map",
+          },
+          {
+            type: "pandas_stack_unstack",
+          },
+        ],
+      },
+      {
+        name: "String & Date/Time Operations",
+        blocks: [
+          {
+            type: "series_str_accessor",
+          },
+          {
+            type: "timeseries_dt_accessor_unified",
+          },
+        ],
+      },
+      {
+        name: "Analysis: Grouping & Aggregation",
+        blocks: [
+          {
+            type: "pandas_groupby",
+          },
+          {
+            type: "dataframe_simple_statistic",
+          },
+          {
+            type: "pandas_corr",
+          },
+          {
+            type: "pandas_apply",
+          },
+          {
+            type: "dataframe_applymap",
+          },
+        ],
+      },
+      {
+        name: "Analysis: Time Series & Windows",
+        blocks: [
+          {
+            type: "pandas_windowing",
+          },
+          {
+            type: "pandas_resample",
+          },
+          {
+            type: "pandas_time_series_operations",
+          },
+          {
+            type: "pandas_first_last",
+          },
+          {
+            type: "pandas_date_offset",
+          },
+          {
+            type: "pandas_set_freq",
+          },
+        ],
+      },
+      {
+        name: "Reporting & Utility",
+        blocks: [
+          {
+            type: "pandas_plot",
+          },
+          {
+            type: "pandas_manage_option",
+          },
+          {
+            type: "pandas_to_numpy",
+          },
+          {
+            type: "dataframe_pipe",
+          },
+          {
+            type: "pandas_eval",
+          },
+          {
+            type: "dataframe_iterrows",
+          },
+          {
+            type: "dataframe_itertuples",
+          },
+          {
+            type: "dataframe_items",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "NumPy",
+    themeKey: "numpy",
+    modules: [
+      {
+        name: "Array",
+        blocks: [
+          {
+            type: "numpy_array",
+          },
+          {
+            type: "numpy_arange",
+          },
+          {
+            type: "numpy_reshape",
+          },
+          {
+            type: "numpy_zeros",
+          },
+          {
+            type: "numpy_ones",
+          },
+          {
+            type: "numpy_concatenate",
+          },
+          {
+            type: "numpy_vstack",
+          },
+          {
+            type: "numpy_hstack",
+          },
+          {
+            type: "numpy_split",
+          },
+          {
+            type: "numpy_sum",
+          },
+          {
+            type: "numpy_mean",
+          },
+          {
+            type: "numpy_std",
+          },
+          {
+            type: "numpy_dot",
+          },
+          {
+            type: "numpy_elementwise_op",
+          },
+          {
+            type: "numpy_indexing",
+          },
+          {
+            type: "numpy_slicing",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Matplotlib",
+    themeKey: "matplotlib",
+    modules: [
+      {
+        name: "Plotting",
+        blocks: [
+          {
+            type: "matplotlib_plot",
+          },
+          {
+            type: "matplotlib_scatter",
+          },
+          {
+            type: "matplotlib_bar",
+          },
+          {
+            type: "matplotlib_hist",
+          },
+          {
+            type: "matplotlib_pie",
+          },
+          {
+            type: "matplotlib_imshow",
+          },
+          {
+            type: "matplotlib_show",
+          },
+          {
+            type: "matplotlib_figure",
+          },
+          {
+            type: "matplotlib_subplot",
+          },
+          {
+            type: "matplotlib_subplots",
+          },
+          {
+            type: "matplotlib_title",
+          },
+          {
+            type: "matplotlib_xlabel",
+          },
+          {
+            type: "matplotlib_ylabel",
+          },
+          {
+            type: "matplotlib_legend",
+          },
+          {
+            type: "matplotlib_grid",
+          },
+          {
+            type: "matplotlib_xlim",
+          },
+          {
+            type: "matplotlib_ylim",
+          },
+          {
+            type: "matplotlib_savefig",
+          },
+          {
+            type: "matplotlib_tight_layout",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Scikit-learn",
+    themeKey: "scikit_learn",
+    modules: [
+      {
+        name: "Preprocessing",
+        blocks: [
+          {
+            type: "sklearn_standard_scaler",
+          },
+          {
+            type: "sklearn_min_max_scaler",
+          },
+          {
+            type: "sklearn_one_hot_encoder",
+          },
+          {
+            type: "sklearn_label_encoder",
+          },
+        ],
+      },
+      {
+        name: "Model Selection",
+        blocks: [
+          {
+            type: "sklearn_train_test_split",
+          },
+          {
+            type: "sklearn_grid_search_cv",
+          },
+        ],
+      },
+      {
+        name: "Pipelines",
+        blocks: [
+          {
+            type: "sklearn_pipeline",
+          },
+        ],
+      },
+      {
+        name: "Models",
+        blocks: [
+          {
+            type: "sklearn_random_forest_classifier",
+          },
+          {
+            type: "sklearn_logistic_regression",
+          },
+          {
+            type: "sklearn_k_neighbors_classifier",
+          },
+          {
+            type: "sklearn_svc",
+          },
+          {
+            type: "sklearn_linear_regression",
+          },
+          {
+            type: "sklearn_ridge_regression",
+          },
+          {
+            type: "sklearn_svr",
+          },
+          {
+            type: "sklearn_kmeans",
+          },
+        ],
+      },
+      {
+        name: "Metrics",
+        blocks: [
+          {
+            type: "sklearn_accuracy_score",
+          },
+          {
+            type: "sklearn_precision_score",
+          },
+          {
+            type: "sklearn_recall_score",
+          },
+          {
+            type: "sklearn_f1_score",
+          },
+          {
+            type: "sklearn_confusion_matrix",
+          },
+          {
+            type: "sklearn_mean_squared_error",
+          },
+          {
+            type: "sklearn_r2_score",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "TensorFlow",
+    themeKey: "tensorflow",
+    modules: [
+      {
+        name: "Keras Core",
+        blocks: [
+          {
+            type: "tensorflow_keras_sequential_model",
+          },
+          {
+            type: "tensorflow_keras_compile_model",
+          },
+          {
+            type: "tensorflow_keras_fit_model",
+          },
+        ],
+      },
+      {
+        name: "Layers",
+        blocks: [
+          {
+            type: "tensorflow_keras_add_dense_layer",
+          },
+          {
+            type: "keras_layer_conv2d",
+          },
+          {
+            type: "keras_layer_maxpooling2d",
+          },
+          {
+            type: "keras_layer_flatten",
+          },
+          {
+            type: "keras_layer_dropout",
+          },
+          {
+            type: "keras_layer_embedding",
+          },
+          {
+            type: "keras_layer_lstm",
+          },
+        ],
+      },
+      {
+        name: "Model Management",
+        blocks: [
+          {
+            type: "keras_save_model",
+          },
+          {
+            type: "keras_load_model",
+          },
+          {
+            type: "keras_model_to_json",
+          },
+          {
+            type: "keras_model_from_json",
+          },
+        ],
+      },
+      {
+        name: "Callbacks",
+        blocks: [
+          {
+            type: "keras_callback_earlystopping",
+          },
+          {
+            type: "keras_callback_modelcheckpoint",
+          },
+        ],
+      },
+      {
+        name: "Data Loading",
+        blocks: [
+          {
+            type: "keras_image_dataset_from_directory",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "PyTorch",
+    themeKey: "pytorch",
+    modules: [
+      {
+        name: "Tensors",
+        blocks: [
+          {
+            type: "torch_tensor",
+          },
+          {
+            type: "torch_tensor_shape",
+          },
+          {
+            type: "torch_tensor_reshape",
+          },
+          {
+            type: "torch_zeros",
+          },
+          {
+            type: "torch_ones",
+          },
+          {
+            type: "torch_randn",
+          },
+        ],
+      },
+      {
+        name: "NN Layers",
+        blocks: [
+          {
+            type: "torch_nn_module",
+          },
+          {
+            type: "torch_nn_linear",
+          },
+          {
+            type: "torch_nn_conv2d",
+          },
+          {
+            type: "torch_nn_maxpool2d",
+          },
+          {
+            type: "torch_nn_relu",
+          },
+          {
+            type: "torch_nn_dropout",
+          },
+          {
+            type: "torch_nn_embedding",
+          },
+          {
+            type: "torch_nn_lstm",
+          },
+        ],
+      },
+      {
+        name: "Data",
+        blocks: [
+          {
+            type: "torch_custom_dataset",
+          },
+          {
+            type: "torch_dataloader",
+          },
+        ],
+      },
+      {
+        name: "Training",
+        blocks: [
+          {
+            type: "torch_train_loop",
+          },
+          {
+            type: "torch_loss_function",
+          },
+          {
+            type: "torch_optimizer",
+          },
+        ],
+      },
+      {
+        name: "Model Management",
+        blocks: [
+          {
+            type: "torch_save",
+          },
+          {
+            type: "torch_load",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "OpenCV",
+    themeKey: "opencv",
+    modules: [
+      {
+        name: "Image I/O & Video I/O",
+        blocks: [
+          {
+            type: "cv2_imread",
+          },
+          {
+            type: "cv2_imreadmulti",
+          },
+          {
+            type: "cv2_imwrite",
+          },
+          {
+            type: "cv2_imwritemulti",
+          },
+          {
+            type: "cv2_imshow",
+          },
+          {
+            type: "cv2_waitkey",
+          },
+          {
+            type: "cv2_destroyallwindows",
+          },
+          {
+            type: "cv2_destroywindow",
+          },
+          {
+            type: "cv2_videocapture",
+          },
+          {
+            type: "cv2_videowriter",
+          },
+          {
+            type: "cv2_read",
+          },
+          {
+            type: "cv2_write",
+          },
+        ],
+      },
+      {
+        name: "Color / Color Space Conversion",
+        blocks: [
+          {
+            type: "cv2_cvtColor",
+          },
+          {
+            type: "cv2_split",
+          },
+          {
+            type: "cv2_merge",
+          },
+          {
+            type: "cv2_splitChannels",
+          },
+          {
+            type: "cv2_mergeChannels",
+          },
+          {
+            type: "cv2_threshold",
+          },
+          {
+            type: "cv2_adaptiveThreshold",
+          },
+          {
+            type: "cv2_COLOR_BGR2GRAY",
+          },
+          {
+            type: "cv2_COLOR_BGR2RGB",
+          },
+          {
+            type: "cv2_COLOR_BGR2HSV",
+          },
+          {
+            type: "cv2_COLOR_BGR2Lab",
+          },
+          {
+            type: "cv2_COLOR_BGR2XYZ",
+          },
+          {
+            type: "cv2_COLOR_BGR2YUV",
+          },
+          {
+            type: "cv2_COLOR_BGR2YCrCb",
+          },
+          {
+            type: "cv2_COLOR_HSV2BGR",
+          },
+          {
+            type: "cv2_COLOR_Lab2BGR",
+          },
+          {
+            type: "cv2_COLOR_XYZ2BGR",
+          },
+          {
+            type: "cv2_COLOR_YUV2BGR",
+          },
+          {
+            type: "cv2_COLOR_YCrCb2BGR",
+          },
+        ],
+      },
+      {
+        name: "Filters & Smoothing",
+        blocks: [
+          {
+            type: "cv2_blur",
+          },
+          {
+            type: "cv2_gaussianBlur",
+          },
+          {
+            type: "cv2_medianBlur",
+          },
+          {
+            type: "cv2_bilateralFilter",
+          },
+          {
+            type: "cv2_boxFilter",
+          },
+          {
+            type: "cv2_filter2D",
+          },
+          {
+            type: "cv2_fastNlMeansDenoising",
+          },
+          {
+            type: "cv2_fastNlMeansDenoisingColored",
+          },
+        ],
+      },
+      {
+        name: "Geometric Transforms",
+        blocks: [
+          {
+            type: "cv2_resize",
+          },
+          {
+            type: "cv2_rotate",
+          },
+          {
+            type: "cv2_flip",
+          },
+          {
+            type: "cv2_warpAffine",
+          },
+          {
+            type: "cv2_warpPerspective",
+          },
+          {
+            type: "cv2_getRotationMatrix2D",
+          },
+          {
+            type: "cv2_getAffineTransform",
+          },
+          {
+            type: "cv2_getPerspectiveTransform",
+          },
+          {
+            type: "cv2_perspectiveTransform",
+          },
+          {
+            type: "cv2_getRectSubPix",
+          },
+          {
+            type: "cv2_remap",
+          },
+          {
+            type: "cv2_pyrDown",
+          },
+          {
+            type: "cv2_pyrUp",
+          },
+          {
+            type: "cv2_buildPyramid",
+          },
+        ],
+      },
+      {
+        name: "Edge / Feature Detection",
+        blocks: [
+          {
+            type: "cv2_canny",
+          },
+          {
+            type: "cv2_sobel",
+          },
+          {
+            type: "cv2_laplacian",
+          },
+          {
+            type: "cv2_houghLines",
+          },
+          {
+            type: "cv2_houghCircles",
+          },
+          {
+            type: "cv2_goodFeaturesToTrack",
+          },
+          {
+            type: "cv2_calcOpticalFlowPyrLK",
+          },
+          {
+            type: "cv2_calcOpticalFlowFarneback",
+          },
+          {
+            type: "cv2_cornerHarris",
+          },
+          {
+            type: "cv2_cornerSubPix",
+          },
+        ],
+      },
+      {
+        name: "Drawing & Annotation",
+        blocks: [
+          {
+            type: "cv2_line",
+          },
+          {
+            type: "cv2_rectangle",
+          },
+          {
+            type: "cv2_circle",
+          },
+          {
+            type: "cv2_ellipse",
+          },
+          {
+            type: "cv2_putText",
+          },
+          {
+            type: "cv2_polylines",
+          },
+          {
+            type: "cv2_drawMarker",
+          },
+        ],
+      },
+      {
+        name: "Morphology",
+        blocks: [
+          {
+            type: "cv2_erode",
+          },
+          {
+            type: "cv2_dilate",
+          },
+          {
+            type: "cv2_morphologyEx",
+          },
+          {
+            type: "cv2_getStructuringElement",
+          },
+        ],
+      },
+      {
+        name: "Contours & Shape Analysis",
+        blocks: [
+          {
+            type: "cv2_findContours",
+          },
+          {
+            type: "cv2_drawContours",
+          },
+          {
+            type: "cv2_contourArea",
+          },
+          {
+            type: "cv2_arcLength",
+          },
+          {
+            type: "cv2_approxPolyDP",
+          },
+          {
+            type: "cv2_minEnclosingCircle",
+          },
+          {
+            type: "cv2_boundingRect",
+          },
+          {
+            type: "cv2_minAreaRect",
+          },
+          {
+            type: "cv2_boxPoints",
+          },
+          {
+            type: "cv2_fitEllipse",
+          },
+          {
+            type: "cv2_fitLine",
+          },
+          {
+            type: "cv2_moments",
+          },
+          {
+            type: "cv2_pointPolygonTest",
+          },
+        ],
+      },
+      {
+        name: "Masking & Bitwise Operations",
+        blocks: [
+          {
+            type: "cv2_inRange",
+          },
+          {
+            type: "cv2_bitwise_and",
+          },
+          {
+            type: "cv2_bitwise_or",
+          },
+          {
+            type: "cv2_bitwise_xor",
+          },
+          {
+            type: "cv2_bitwise_not",
+          },
+          {
+            type: "cv2_copyTo",
+          },
+          {
+            type: "cv2_subtract",
+          },
+          {
+            type: "cv2_add",
+          },
+        ],
+      },
+      {
+        name: "Advanced Utilities & Image Processing",
+        blocks: [
+          {
+            type: "cv2_convertScaleAbs",
+          },
+          {
+            type: "cv2_addWeighted",
+          },
+          {
+            type: "cv2_resizeCanvas",
+          },
+          {
+            type: "cv2_normalize",
+          },
+          {
+            type: "cv2_equalizeHist",
+          },
+          {
+            type: "cv2_calcHist",
+          },
+          {
+            type: "cv2_compareHist",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Image Manipulation",
+    themeKey: "image_manipulation",
+    modules: [
+      {
+        name: "Pillow",
+        blocks: [
+          {
+            type: "pillow_image_create",
+          },
+          {
+            type: "pillow_draw_line",
+          },
+          {
+            type: "pillow_draw_rectangle",
+          },
+          {
+            type: "pillow_draw_ellipse",
+          },
+          {
+            type: "pillow_draw_text",
+          },
+          {
+            type: "pillow_image_filter",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Transformers",
+    themeKey: "transformers",
+    modules: [
+      {
+        name: "Pipelines",
+        blocks: [
+          {
+            type: "transformers_pipeline",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Web",
+    themeKey: "web",
+    modules: [
+      {
+        name: "Requests",
+        blocks: [
+          {
+            type: "requests_get",
+          },
+        ],
+      },
+      {
+        name: "FastAPI",
+        blocks: [
+          {
+            type: "fastapi_post_endpoint",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Standard Library",
+    themeKey: "standard_library",
+    modules: [
+      {
+        name: "JSON",
+        blocks: [
+          {
+            type: "json_loads",
+          },
+        ],
+      },
+      {
+        name: "Collections",
+        blocks: [
+          {
+            type: "collections_counter_create",
+          },
+          {
+            type: "collections_deque_create",
+          },
+          {
+            type: "collections_deque_append",
+          },
+          {
+            type: "collections_deque_appendleft",
+          },
+          {
+            type: "collections_deque_pop",
+          },
+          {
+            type: "collections_deque_popleft",
+          },
+          {
+            type: "collections_defaultdict_create",
+          },
+        ],
+      },
+      {
+        name: "DateTime",
+        blocks: [
+          {
+            type: "datetime_now",
+          },
+          {
+            type: "datetime_date",
+          },
+          {
+            type: "datetime_time",
+          },
+          {
+            type: "datetime_datetime",
+          },
+          {
+            type: "datetime_timedelta",
+          },
+          {
+            type: "datetime_strftime",
+          },
+          {
+            type: "datetime_strptime",
+          },
+          {
+            type: "datetime_fromtimestamp",
+          },
+          {
+            type: "datetime_timestamp",
+          },
+          {
+            type: "datetime_getattr",
+          },
+          {
+            type: "datetime_timezone",
+          },
+          {
+            type: "datetime_astimezone",
+          },
+          {
+            type: "time_sleep",
+          },
+        ],
+      },
+      {
+        name: "Itertools",
+        blocks: [
+          {
+            type: "itertools_chain",
+          },
+          {
+            type: "itertools_permutations",
+          },
+          {
+            type: "itertools_combinations",
+          },
+          {
+            type: "itertools_product",
+          },
+          {
+            type: "itertools_count",
+          },
+          {
+            type: "itertools_cycle",
+          },
+          {
+            type: "itertools_repeat",
+          },
+          {
+            type: "itertools_takewhile",
+          },
+          {
+            type: "itertools_dropwhile",
+          },
+          {
+            type: "itertools_filterfalse",
+          },
+        ],
+      },
+      {
+        name: "Regex",
+        blocks: [
+          {
+            type: "re_compile",
+          },
+          {
+            type: "re_search",
+          },
+          {
+            type: "re_match",
+          },
+          {
+            type: "re_findall",
+          },
+          {
+            type: "re_sub",
+          },
+          {
+            type: "re_split",
+          },
+          {
+            type: "re_escape",
+          },
+          {
+            type: "re_match_group",
+          },
+          {
+            type: "re_match_groups",
+          },
+        ],
+      },
+      {
+        name: "System",
+        blocks: [
+          {
+            type: "os_path_join",
+          },
+          {
+            type: "os_path_exists",
+          },
+          {
+            type: "sys_argv",
+          },
+          {
+            type: "sys_platform",
+          },
+          {
+            type: "system_sys_exit",
+          },
+          {
+            type: "os_path_basename",
+          },
+          {
+            type: "os_path_dirname",
+          },
+          {
+            type: "os_path_splitext",
+          },
+          {
+            type: "os_mkdir",
+          },
+          {
+            type: "os_makedirs",
+          },
+          {
+            type: "os_rename",
+          },
+          {
+            type: "os_path_isfile",
+          },
+          {
+            type: "os_path_isdir",
+          },
+          {
+            type: "system_os_getcwd",
+          },
+          {
+            type: "system_pathlib_util",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Web Scraping",
+    themeKey: "web_scraping",
+    modules: [
+      {
+        name: "BeautifulSoup",
+        blocks: [
+          {
+            type: "beautifulsoup_parse_html",
+          },
+          {
+            type: "beautifulsoup_find",
+          },
+          {
+            type: "beautifulsoup_find_all",
+          },
+          {
+            type: "beautifulsoup_get_text",
+          },
+          {
+            type: "beautifulsoup_get_attribute",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Tools & Testing",
+    themeKey: "tools_testing",
+    modules: [
+      {
+        name: "Unittest",
+        blocks: [
+          {
+            type: "unittest_main",
+          },
+          {
+            type: "unittest_testcase",
+          },
+          {
+            type: "unittest_testfunction",
+          },
+          {
+            type: "unittest_assert_equal",
+          },
+          {
+            type: "unittest_assert_true",
+          },
+          {
+            type: "unittest_assert_false",
+          },
+          {
+            type: "unittest_assert_raises",
+          },
+        ],
+      },
+      {
+        name: "ArgParse",
+        blocks: [
+          {
+            type: "argparse_import",
+          },
+          {
+            type: "argparse_create_parser",
+          },
+          {
+            type: "argparse_add_argument",
+          },
+          {
+            type: "argparse_parse_args",
+          },
+          {
+            type: "argparse_get_arg",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Turtle",
+    themeKey: "turtle",
+    modules: [
+      {
+        name: "Motion & State",
+        blocks: [
+          {
+            type: "turtle_move_turn",
+          },
+          {
+            type: "turtle_goto",
+          },
+          {
+            type: "turtle_home",
+          },
+          {
+            type: "turtle_set_property",
+          },
+          {
+            type: "turtle_get_property",
+          },
+          {
+            type: "turtle_distance_to",
+          },
+          {
+            type: "turtle_towards",
+          },
+          {
+            type: "turtle_position",
+          },
+        ],
+      },
+      {
+        name: "Pen & Drawing",
+        blocks: [
+          {
+            type: "turtle_pen_control",
+          },
+          {
+            type: "turtle_isdown",
+          },
+          {
+            type: "turtle_pen_size",
+          },
+          {
+            type: "turtle_pen_color",
+          },
+          {
+            type: "turtle_fill_color",
+          },
+          {
+            type: "turtle_color_both",
+          },
+          {
+            type: "turtle_begin_fill",
+          },
+          {
+            type: "turtle_end_fill",
+          },
+          {
+            type: "turtle_filling",
+          },
+          {
+            type: "turtle_write",
+          },
+        ],
+      },
+      {
+        name: "Screen & Window Control",
+        blocks: [
+          {
+            type: "turtle_setup",
+          },
+          {
+            type: "turtle_screensize",
+          },
+          {
+            type: "turtle_bgcolor",
+          },
+          {
+            type: "turtle_bgpic",
+          },
+          {
+            type: "turtle_title",
+          },
+          {
+            type: "turtle_mode",
+          },
+          {
+            type: "turtle_colormode",
+          },
+          {
+            type: "turtle_tracer",
+          },
+          {
+            type: "turtle_update",
+          },
+          {
+            type: "turtle_delay",
+          },
+          {
+            type: "turtle_clearscreen",
+          },
+          {
+            type: "turtle_resetscreen",
+          },
+          {
+            type: "turtle_done",
+          },
+          {
+            type: "turtle_exitonclick",
+          },
+        ],
+      },
+      {
+        name: "Event Handling & Input",
+        blocks: [
+          {
+            type: "turtle_listen",
+          },
+          {
+            type: "turtle_onkey",
+          },
+          {
+            type: "turtle_onkeyrelease",
+          },
+          {
+            type: "turtle_onclick",
+          },
+          {
+            type: "turtle_onscreenclick",
+          },
+          {
+            type: "turtle_onrelease",
+          },
+          {
+            type: "turtle_ontimer",
+          },
+          {
+            type: "turtle_textinput",
+          },
+          {
+            type: "turtle_numinput",
+          },
+        ],
+      },
+      {
+        name: "Polygon Recording",
+        blocks: [
+          {
+            type: "turtle_begin_poly",
+          },
+          {
+            type: "turtle_end_poly",
+          },
+          {
+            type: "turtle_get_poly",
+          },
+          {
+            type: "turtle_register_shape",
+          },
+        ],
+      },
+    ],
+  },
+]

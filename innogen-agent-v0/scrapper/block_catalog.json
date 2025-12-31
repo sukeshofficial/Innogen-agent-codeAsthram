@@ -1,0 +1,3387 @@
+[
+  {
+    "type": "text_literal",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_multiline",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_concat",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_format",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_length",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_substring",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_search",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_transform",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_split_join",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_replace",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_html_transform",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_is_empty",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_newline",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_tab",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_print",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "text_print_fstring",
+    "category": "essentials",
+    "module": "Text"
+  },
+  {
+    "type": "essentials_num_literal",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_arithmetic",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_neg",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_abs",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_round",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_clamp",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_compare",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_min",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_max",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_rand_int",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_num_rand_float",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_expr_group",
+    "category": "essentials",
+    "module": "Numbers"
+  },
+  {
+    "type": "essentials_list_create",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_from_range",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_length",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_get",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_set",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_statements",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_expressions",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_index_of",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_slice",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_sort",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_reverse",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_map",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_filter",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_reduce",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_flatten",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_unique",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_chunk",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "essentials_list_enumerate",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "lists_shuffle_in_place",
+    "category": "essentials",
+    "module": "Lists"
+  },
+  {
+    "type": "sorted_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "list_sort_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "key_builder_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "multi_key_sort_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "reverse_view_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "argsort_helper_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "stable_sort_info_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "sorting_master_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "reverse_toggle_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "key_dict_item_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "heapq_select_block",
+    "category": "essentials",
+    "module": "Sorting"
+  },
+  {
+    "type": "essentials_tuple_create",
+    "category": "essentials",
+    "module": "Tuples"
+  },
+  {
+    "type": "essentials_tuple_from_list",
+    "category": "essentials",
+    "module": "Tuples"
+  },
+  {
+    "type": "essentials_tuple_to_list",
+    "category": "essentials",
+    "module": "Tuples"
+  },
+  {
+    "type": "essentials_tuple_unpack",
+    "category": "essentials",
+    "module": "Tuples"
+  },
+  {
+    "type": "essentials_namedtuple_define",
+    "category": "essentials",
+    "module": "Tuples"
+  },
+  {
+    "type": "essentials_dataclass_stub",
+    "category": "essentials",
+    "module": "Tuples"
+  },
+  {
+    "type": "tuples_count",
+    "category": "essentials",
+    "module": "Tuples"
+  },
+  {
+    "type": "tuples_index",
+    "category": "essentials",
+    "module": "Tuples"
+  },
+  {
+    "type": "essentials_set_create",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_set_add",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_set_remove",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_set_union",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_set_intersection",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_set_difference",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_set_symmetric_difference",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_set_contains",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_set_is_subset",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_set_is_superset",
+    "category": "essentials",
+    "module": "Sets"
+  },
+  {
+    "type": "essentials_dict_create",
+    "category": "essentials",
+    "module": "Dictionaries"
+  },
+  {
+    "type": "essentials_dict_statements",
+    "category": "essentials",
+    "module": "Dictionaries"
+  },
+  {
+    "type": "essentials_dict_expressions",
+    "category": "essentials",
+    "module": "Dictionaries"
+  },
+  {
+    "type": "essentials_dict_update",
+    "category": "essentials",
+    "module": "Dictionaries"
+  },
+  {
+    "type": "essentials_dict_merge_shallow",
+    "category": "essentials",
+    "module": "Dictionaries"
+  },
+  {
+    "type": "essentials_dict_deep_merge",
+    "category": "essentials",
+    "module": "Dictionaries"
+  },
+  {
+    "type": "essentials_dict_get_nested",
+    "category": "essentials",
+    "module": "Dictionaries"
+  },
+  {
+    "type": "essentials_registry_register",
+    "category": "essentials",
+    "module": "Dictionaries"
+  },
+  {
+    "type": "essentials_registry_call",
+    "category": "essentials",
+    "module": "Dictionaries"
+  },
+  {
+    "type": "essentials_import_simple",
+    "category": "essentials",
+    "module": "Variables & Types"
+  },
+  {
+    "type": "essentials_scope_keyword",
+    "category": "essentials",
+    "module": "Variables & Types"
+  },
+  {
+    "type": "essentials_var_set",
+    "category": "essentials",
+    "module": "Variables & Types"
+  },
+  {
+    "type": "essentials_var_get",
+    "category": "essentials",
+    "module": "Variables & Types"
+  },
+  {
+    "type": "essentials_var_undefined",
+    "category": "essentials",
+    "module": "Variables & Types"
+  },
+  {
+    "type": "essentials_is_instance",
+    "category": "essentials",
+    "module": "Variables & Types"
+  },
+  {
+    "type": "essentials_type_of",
+    "category": "essentials",
+    "module": "Variables & Types"
+  },
+  {
+    "type": "essentials_cast",
+    "category": "essentials",
+    "module": "Variables & Types"
+  },
+  {
+    "type": "essentials_default_if_none",
+    "category": "essentials",
+    "module": "Variables & Types"
+  },
+  {
+    "type": "oop_class",
+    "category": "essentials",
+    "module": "Classes & OOP"
+  },
+  {
+    "type": "oop_constructor",
+    "category": "essentials",
+    "module": "Classes & OOP"
+  },
+  {
+    "type": "oop_method",
+    "category": "essentials",
+    "module": "Classes & OOP"
+  },
+  {
+    "type": "oop_super_init",
+    "category": "essentials",
+    "module": "Classes & OOP"
+  },
+  {
+    "type": "oop_super_call",
+    "category": "essentials",
+    "module": "Classes & OOP"
+  },
+  {
+    "type": "essentials_bool_true",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_bool_false",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_logic_and",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_logic_or",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_logic_not",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_compare",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_in_operator",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_not_in_operator",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_ternary",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_assert",
+    "category": "essentials",
+    "module": "Logic & Booleans"
+  },
+  {
+    "type": "essentials_log_info",
+    "category": "essentials",
+    "module": "Logging & IO (safe)"
+  },
+  {
+    "type": "essentials_log_warn",
+    "category": "essentials",
+    "module": "Logging & IO (safe)"
+  },
+  {
+    "type": "essentials_log_error",
+    "category": "essentials",
+    "module": "Logging & IO (safe)"
+  },
+  {
+    "type": "essentials_safe_input",
+    "category": "essentials",
+    "module": "Logging & IO (safe)"
+  },
+  {
+    "type": "essentials_input_raw",
+    "category": "essentials",
+    "module": "Logging & IO (safe)"
+  },
+  {
+    "type": "essentials_logging_basic_config",
+    "category": "essentials",
+    "module": "Logging & IO (safe)"
+  },
+  {
+    "type": "if_block",
+    "category": "control_computation",
+    "module": "Conditionals"
+  },
+  {
+    "type": "control_match",
+    "category": "control_computation",
+    "module": "Conditionals"
+  },
+  {
+    "type": "control_condition_expr",
+    "category": "control_computation",
+    "module": "Conditionals"
+  },
+  {
+    "type": "control_logical_combine",
+    "category": "control_computation",
+    "module": "Conditionals"
+  },
+  {
+    "type": "control_if_truthy",
+    "category": "control_computation",
+    "module": "Conditionals"
+  },
+  {
+    "type": "control_if_main",
+    "category": "control_computation",
+    "module": "Conditionals"
+  },
+  {
+    "type": "control_pass_simple",
+    "category": "control_computation",
+    "module": "Conditionals"
+  },
+  {
+    "type": "controls_repeat_ext",
+    "category": "control_computation",
+    "module": "Loops"
+  },
+  {
+    "type": "controls_whileUntil",
+    "category": "control_computation",
+    "module": "Loops"
+  },
+  {
+    "type": "controls_for",
+    "category": "control_computation",
+    "module": "Loops"
+  },
+  {
+    "type": "controls_forEach",
+    "category": "control_computation",
+    "module": "Loops"
+  },
+  {
+    "type": "controls_flow_statements",
+    "category": "control_computation",
+    "module": "Loops"
+  },
+  {
+    "type": "control_for_indexed",
+    "category": "control_computation",
+    "module": "Loops"
+  },
+  {
+    "type": "control_for_zip",
+    "category": "control_computation",
+    "module": "Loops"
+  },
+  {
+    "type": "control_flow_break_continue",
+    "category": "control_computation",
+    "module": "Loops"
+  },
+  {
+    "type": "control_while_true_inline",
+    "category": "control_computation",
+    "module": "Loops"
+  },
+  {
+    "type": "essentials_function_def",
+    "category": "control_computation",
+    "module": "Functions & Calls"
+  },
+  {
+    "type": "procedures_callnoreturn",
+    "category": "control_computation",
+    "module": "Functions & Calls"
+  },
+  {
+    "type": "procedures_callreturn",
+    "category": "control_computation",
+    "module": "Functions & Calls"
+  },
+  {
+    "type": "control_lambda_expr",
+    "category": "control_computation",
+    "module": "Functions & Calls"
+  },
+  {
+    "type": "control_partial_apply",
+    "category": "control_computation",
+    "module": "Functions & Calls"
+  },
+  {
+    "type": "control_function_decorator",
+    "category": "control_computation",
+    "module": "Functions & Calls"
+  },
+  {
+    "type": "control_function_docstring",
+    "category": "control_computation",
+    "module": "Functions & Calls"
+  },
+  {
+    "type": "functions_callable",
+    "category": "control_computation",
+    "module": "Functions & Calls"
+  },
+  {
+    "type": "control_return",
+    "category": "control_computation",
+    "module": "Functions & Calls"
+  },
+  {
+    "type": "control_list_comp",
+    "category": "control_computation",
+    "module": "Comprehensions"
+  },
+  {
+    "type": "control_dict_comp",
+    "category": "control_computation",
+    "module": "Comprehensions"
+  },
+  {
+    "type": "control_dict_zip_comp",
+    "category": "control_computation",
+    "module": "Comprehensions"
+  },
+  {
+    "type": "control_set_comp",
+    "category": "control_computation",
+    "module": "Comprehensions"
+  },
+  {
+    "type": "control_gen_expr",
+    "category": "control_computation",
+    "module": "Comprehensions"
+  },
+  {
+    "type": "math_single",
+    "category": "control_computation",
+    "module": "Operators & advanced math"
+  },
+  {
+    "type": "math_ops_multi",
+    "category": "control_computation",
+    "module": "Operators & advanced math"
+  },
+  {
+    "type": "control_math_stats",
+    "category": "control_computation",
+    "module": "Operators & advanced math"
+  },
+  {
+    "type": "control_decimal_create",
+    "category": "control_computation",
+    "module": "Operators & advanced math"
+  },
+  {
+    "type": "control_fraction_create",
+    "category": "control_computation",
+    "module": "Operators & advanced math"
+  },
+  {
+    "type": "control_complex_create",
+    "category": "control_computation",
+    "module": "Operators & advanced math"
+  },
+  {
+    "type": "control_accumulate",
+    "category": "control_computation",
+    "module": "Operators & advanced math"
+  },
+  {
+    "type": "control_try_except",
+    "category": "control_computation",
+    "module": "Error handling"
+  },
+  {
+    "type": "control_try_except_finally",
+    "category": "control_computation",
+    "module": "Error handling"
+  },
+  {
+    "type": "control_try_except_else_finally",
+    "category": "control_computation",
+    "module": "Error handling"
+  },
+  {
+    "type": "control_raise_exception",
+    "category": "control_computation",
+    "module": "Error handling"
+  },
+  {
+    "type": "iterators_yield",
+    "category": "control_computation",
+    "module": "Iterators & Generators"
+  },
+  {
+    "type": "iterators_yield_from",
+    "category": "control_computation",
+    "module": "Iterators & Generators"
+  },
+  {
+    "type": "iterators_generator_function",
+    "category": "control_computation",
+    "module": "Iterators & Generators"
+  },
+  {
+    "type": "iterators_safe_next",
+    "category": "control_computation",
+    "module": "Iterators & Generators"
+  },
+  {
+    "type": "iterators_generator_expression",
+    "category": "control_computation",
+    "module": "Iterators & Generators"
+  },
+  {
+    "type": "text_normalize_unicode",
+    "category": "text_localization",
+    "module": "Core Text"
+  },
+  {
+    "type": "text_remove_accents",
+    "category": "text_localization",
+    "module": "Core Text"
+  },
+  {
+    "type": "text_slugify",
+    "category": "text_localization",
+    "module": "Core Text"
+  },
+  {
+    "type": "text_fix_encoding",
+    "category": "text_localization",
+    "module": "Core Text"
+  },
+  {
+    "type": "text_re_search",
+    "category": "text_localization",
+    "module": "Regex & parsing"
+  },
+  {
+    "type": "text_re_match",
+    "category": "text_localization",
+    "module": "Regex & parsing"
+  },
+  {
+    "type": "text_re_findall",
+    "category": "text_localization",
+    "module": "Regex & parsing"
+  },
+  {
+    "type": "text_re_replace",
+    "category": "text_localization",
+    "module": "Regex & parsing"
+  },
+  {
+    "type": "text_re_split",
+    "category": "text_localization",
+    "module": "Regex & parsing"
+  },
+  {
+    "type": "text_regex_flags",
+    "category": "text_localization",
+    "module": "Regex & parsing"
+  },
+  {
+    "type": "text_template_render_jinja",
+    "category": "text_localization",
+    "module": "Templating"
+  },
+  {
+    "type": "text_template_safe_render",
+    "category": "text_localization",
+    "module": "Templating"
+  },
+  {
+    "type": "text_i18n_register",
+    "category": "text_localization",
+    "module": "i18n & localization"
+  },
+  {
+    "type": "text_i18n_translate",
+    "category": "text_localization",
+    "module": "i18n & localization"
+  },
+  {
+    "type": "text_i18n_plural",
+    "category": "text_localization",
+    "module": "i18n & localization"
+  },
+  {
+    "type": "text_i18n_set_locale",
+    "category": "text_localization",
+    "module": "i18n & localization"
+  },
+  {
+    "type": "text_i18n_get_locale",
+    "category": "text_localization",
+    "module": "i18n & localization"
+  },
+  {
+    "type": "text_alt_text_generate",
+    "category": "text_localization",
+    "module": "i18n & localization"
+  },
+  {
+    "type": "text_to_lines",
+    "category": "text_localization",
+    "module": "Text utilities"
+  },
+  {
+    "type": "text_indent",
+    "category": "text_localization",
+    "module": "Text utilities"
+  },
+  {
+    "type": "text_unindent",
+    "category": "text_localization",
+    "module": "Text utilities"
+  },
+  {
+    "type": "text_preview",
+    "category": "text_localization",
+    "module": "Text utilities"
+  },
+  {
+    "type": "io_fs_read",
+    "category": "io_formats",
+    "module": "File (virtual FS safe)"
+  },
+  {
+    "type": "io_fs_write",
+    "category": "io_formats",
+    "module": "File (virtual FS safe)"
+  },
+  {
+    "type": "io_fs_append",
+    "category": "io_formats",
+    "module": "File (virtual FS safe)"
+  },
+  {
+    "type": "io_fs_delete",
+    "category": "io_formats",
+    "module": "File (virtual FS safe)"
+  },
+  {
+    "type": "io_fs_exists",
+    "category": "io_formats",
+    "module": "File (virtual FS safe)"
+  },
+  {
+    "type": "io_fs_listdir",
+    "category": "io_formats",
+    "module": "File (virtual FS safe)"
+  },
+  {
+    "type": "io_fs_mkdir",
+    "category": "io_formats",
+    "module": "File (virtual FS safe)"
+  },
+  {
+    "type": "io_fs_tempfile",
+    "category": "io_formats",
+    "module": "File (virtual FS safe)"
+  },
+  {
+    "type": "io_fs_copy",
+    "category": "io_formats",
+    "module": "File (virtual FS safe)"
+  },
+  {
+    "type": "io_fs_open",
+    "category": "io_formats",
+    "module": "File I/O"
+  },
+  {
+    "type": "io_fs_file_mode",
+    "category": "io_formats",
+    "module": "File I/O"
+  },
+  {
+    "type": "io_fs_read_lines",
+    "category": "io_formats",
+    "module": "File I/O"
+  },
+  {
+    "type": "io_fs_write_lines",
+    "category": "io_formats",
+    "module": "File I/O"
+  },
+  {
+    "type": "io_json_load",
+    "category": "io_formats",
+    "module": "JSON / CSV / YAML"
+  },
+  {
+    "type": "io_json_dump",
+    "category": "io_formats",
+    "module": "JSON / CSV / YAML"
+  },
+  {
+    "type": "io_csv_read",
+    "category": "io_formats",
+    "module": "JSON / CSV / YAML"
+  },
+  {
+    "type": "io_csv_write",
+    "category": "io_formats",
+    "module": "JSON / CSV / YAML"
+  },
+  {
+    "type": "io_yaml_load",
+    "category": "io_formats",
+    "module": "JSON / CSV / YAML"
+  },
+  {
+    "type": "io_yaml_dump",
+    "category": "io_formats",
+    "module": "JSON / CSV / YAML"
+  },
+  {
+    "type": "io_bytes_from_text",
+    "category": "io_formats",
+    "module": "Streams & bytes"
+  },
+  {
+    "type": "io_text_from_bytes",
+    "category": "io_formats",
+    "module": "Streams & bytes"
+  },
+  {
+    "type": "io_stream_read_chunk",
+    "category": "io_formats",
+    "module": "Streams & bytes"
+  },
+  {
+    "type": "io_stream_write_chunk",
+    "category": "io_formats",
+    "module": "Streams & bytes"
+  },
+  {
+    "type": "io_serialize_json_safe",
+    "category": "io_formats",
+    "module": "Serialization (safe)"
+  },
+  {
+    "type": "io_deserialize_json_safe",
+    "category": "io_formats",
+    "module": "Serialization (safe)"
+  },
+  {
+    "type": "io_serialize_msgpack",
+    "category": "io_formats",
+    "module": "Serialization (safe)"
+  },
+  {
+    "type": "data_structures_seq_concat",
+    "category": "data_structures",
+    "module": "Sequences"
+  },
+  {
+    "type": "data_structures_seq_repeat",
+    "category": "data_structures",
+    "module": "Sequences"
+  },
+  {
+    "type": "data_structures_seq_slice_step",
+    "category": "data_structures",
+    "module": "Sequences"
+  },
+  {
+    "type": "data_structures_seq_sorted_by",
+    "category": "data_structures",
+    "module": "Sequences"
+  },
+  {
+    "type": "data_structures_seq_zip",
+    "category": "data_structures",
+    "module": "Sequences"
+  },
+  {
+    "type": "data_structures_seq_transpose",
+    "category": "data_structures",
+    "module": "Sequences"
+  },
+  {
+    "type": "data_structures_seq_chunk",
+    "category": "data_structures",
+    "module": "Sequences"
+  },
+  {
+    "type": "data_structures_seq_window",
+    "category": "data_structures",
+    "module": "Sequences"
+  },
+  {
+    "type": "data_structures_map_get_path",
+    "category": "data_structures",
+    "module": "Mappings"
+  },
+  {
+    "type": "data_structures_map_set_path",
+    "category": "data_structures",
+    "module": "Mappings"
+  },
+  {
+    "type": "data_structures_map_flatten",
+    "category": "data_structures",
+    "module": "Mappings"
+  },
+  {
+    "type": "data_structures_map_unflatten",
+    "category": "data_structures",
+    "module": "Mappings"
+  },
+  {
+    "type": "data_structures_map_filter_by_value",
+    "category": "data_structures",
+    "module": "Mappings"
+  },
+  {
+    "type": "data_structures_map_keys_to_list",
+    "category": "data_structures",
+    "module": "Mappings"
+  },
+  {
+    "type": "data_structures_map_items_to_list",
+    "category": "data_structures",
+    "module": "Mappings"
+  },
+  {
+    "type": "data_structures_map_invert",
+    "category": "data_structures",
+    "module": "Mappings"
+  },
+  {
+    "type": "data_structures_record_define_namedtuple",
+    "category": "data_structures",
+    "module": "Records"
+  },
+  {
+    "type": "data_structures_record_define_dataclass",
+    "category": "data_structures",
+    "module": "Records"
+  },
+  {
+    "type": "data_structures_record_instantiate",
+    "category": "data_structures",
+    "module": "Records"
+  },
+  {
+    "type": "data_structures_record_to_dict",
+    "category": "data_structures",
+    "module": "Records"
+  },
+  {
+    "type": "data_structures_record_from_dict",
+    "category": "data_structures",
+    "module": "Records"
+  },
+  {
+    "type": "data_structures_frozen_map",
+    "category": "data_structures",
+    "module": "Immutable & Persistent helpers"
+  },
+  {
+    "type": "data_structures_frozen_list",
+    "category": "data_structures",
+    "module": "Immutable & Persistent helpers"
+  },
+  {
+    "type": "data_structures_registry_create",
+    "category": "data_structures",
+    "module": "Registry & plugin patterns"
+  },
+  {
+    "type": "data_structures_registry_register",
+    "category": "data_structures",
+    "module": "Registry & plugin patterns"
+  },
+  {
+    "type": "data_structures_registry_unregister",
+    "category": "data_structures",
+    "module": "Registry & plugin patterns"
+  },
+  {
+    "type": "data_structures_registry_list",
+    "category": "data_structures",
+    "module": "Registry & plugin patterns"
+  },
+  {
+    "type": "requests_get",
+    "category": "networking",
+    "module": "HTTP Requests"
+  },
+  {
+    "type": "fastapi_create_app",
+    "category": "web_server",
+    "module": "FastAPI"
+  },
+  {
+    "type": "sqlite_connect",
+    "category": "database",
+    "module": "SQLite3"
+  },
+  {
+    "type": "sqlite_execute",
+    "category": "database",
+    "module": "SQLite3"
+  },
+  {
+    "type": "sqlite_fetchall",
+    "category": "database",
+    "module": "SQLite3"
+  },
+  {
+    "type": "sqlite_close",
+    "category": "database",
+    "module": "SQLite3"
+  },
+  {
+    "type": "concurrency_thread_start",
+    "category": "concurrency_async",
+    "module": "Threading / executor"
+  },
+  {
+    "type": "concurrency_thread_join",
+    "category": "concurrency_async",
+    "module": "Threading / executor"
+  },
+  {
+    "type": "concurrency_thread_pool_submit",
+    "category": "concurrency_async",
+    "module": "Threading / executor"
+  },
+  {
+    "type": "concurrency_future_result",
+    "category": "concurrency_async",
+    "module": "Threading / executor"
+  },
+  {
+    "type": "concurrency_thread_lock_acquire",
+    "category": "concurrency_async",
+    "module": "Threading / executor"
+  },
+  {
+    "type": "concurrency_thread_lock_release",
+    "category": "concurrency_async",
+    "module": "Threading / executor"
+  },
+  {
+    "type": "concurrency_async_def",
+    "category": "concurrency_async",
+    "module": "Async (asyncio safe wrappers)"
+  },
+  {
+    "type": "concurrency_await_block",
+    "category": "concurrency_async",
+    "module": "Async (asyncio safe wrappers)"
+  },
+  {
+    "type": "concurrency_async_sleep",
+    "category": "concurrency_async",
+    "module": "Async (asyncio safe wrappers)"
+  },
+  {
+    "type": "concurrency_async_gather",
+    "category": "concurrency_async",
+    "module": "Async (asyncio safe wrappers)"
+  },
+  {
+    "type": "concurrency_async_http_get",
+    "category": "concurrency_async",
+    "module": "Async (asyncio safe wrappers)"
+  },
+  {
+    "type": "concurrency_queue_put",
+    "category": "concurrency_async",
+    "module": "Queues / synchronization"
+  },
+  {
+    "type": "concurrency_queue_get",
+    "category": "concurrency_async",
+    "module": "Queues / synchronization"
+  },
+  {
+    "type": "concurrency_event_wait_set_clear",
+    "category": "concurrency_async",
+    "module": "Queues / synchronization"
+  },
+  {
+    "type": "concurrency_semaphore_acquire_release",
+    "category": "concurrency_async",
+    "module": "Queues / synchronization"
+  },
+  {
+    "type": "concurrency_schedule_every",
+    "category": "concurrency_async",
+    "module": "Scheduling"
+  },
+  {
+    "type": "concurrency_schedule_once",
+    "category": "concurrency_async",
+    "module": "Scheduling"
+  },
+  {
+    "type": "automation_cmd_run_safe",
+    "category": "automation_devops",
+    "module": "Safe shell & commands"
+  },
+  {
+    "type": "automation_cmd_user_confirm",
+    "category": "automation_devops",
+    "module": "Safe shell & commands"
+  },
+  {
+    "type": "automation_cmd_capture_output",
+    "category": "automation_devops",
+    "module": "Safe shell & commands"
+  },
+  {
+    "type": "automation_subprocess_run",
+    "category": "automation_devops",
+    "module": "Safe shell & commands"
+  },
+  {
+    "type": "system_env_get",
+    "category": "automation_devops",
+    "module": "Safe shell & commands"
+  },
+  {
+    "type": "automation_ssh_connect",
+    "category": "automation_devops",
+    "module": "SSH & remote ops"
+  },
+  {
+    "type": "automation_ssh_run",
+    "category": "automation_devops",
+    "module": "SSH & remote ops"
+  },
+  {
+    "type": "automation_scp_upload",
+    "category": "automation_devops",
+    "module": "SSH & remote ops"
+  },
+  {
+    "type": "automation_scp_download",
+    "category": "automation_devops",
+    "module": "SSH & remote ops"
+  },
+  {
+    "type": "automation_docker_run",
+    "category": "automation_devops",
+    "module": "Containers & infra"
+  },
+  {
+    "type": "automation_terraform_apply",
+    "category": "automation_devops",
+    "module": "Containers & infra"
+  },
+  {
+    "type": "automation_ansible_run",
+    "category": "automation_devops",
+    "module": "Containers & infra"
+  },
+  {
+    "type": "automation_ci_trigger",
+    "category": "automation_devops",
+    "module": "Automation helpers"
+  },
+  {
+    "type": "automation_artifact_upload",
+    "category": "automation_devops",
+    "module": "Automation helpers"
+  },
+  {
+    "type": "automation_artifact_download",
+    "category": "automation_devops",
+    "module": "Automation helpers"
+  },
+  {
+    "type": "pandas_io_format_transfer",
+    "category": "pandas",
+    "module": "Data Access & Creation"
+  },
+  {
+    "type": "pandas_structure_factory",
+    "category": "pandas",
+    "module": "Data Access & Creation"
+  },
+  {
+    "type": "pandas_json_normalize",
+    "category": "pandas",
+    "module": "Data Access & Creation"
+  },
+  {
+    "type": "pandas_to_dict",
+    "category": "pandas",
+    "module": "Data Access & Creation"
+  },
+  {
+    "type": "pandas_interval",
+    "category": "pandas",
+    "module": "Data Access & Creation"
+  },
+  {
+    "type": "pandas_period_index",
+    "category": "pandas",
+    "module": "Data Access & Creation"
+  },
+  {
+    "type": "pandas_timedelta_index",
+    "category": "pandas",
+    "module": "Data Access & Creation"
+  },
+  {
+    "type": "dataframe_peek",
+    "category": "pandas",
+    "module": "Inspection & Metadata"
+  },
+  {
+    "type": "dataframe_property_or_metadata",
+    "category": "pandas",
+    "module": "Inspection & Metadata"
+  },
+  {
+    "type": "pandas_value_counts",
+    "category": "pandas",
+    "module": "Inspection & Metadata"
+  },
+  {
+    "type": "pandas_unique",
+    "category": "pandas",
+    "module": "Inspection & Metadata"
+  },
+  {
+    "type": "pandas_nunique",
+    "category": "pandas",
+    "module": "Inspection & Metadata"
+  },
+  {
+    "type": "validate_property",
+    "category": "pandas",
+    "module": "Inspection & Metadata"
+  },
+  {
+    "type": "pandas_idxmin",
+    "category": "pandas",
+    "module": "Inspection & Metadata"
+  },
+  {
+    "type": "pandas_idxmax",
+    "category": "pandas",
+    "module": "Inspection & Metadata"
+  },
+  {
+    "type": "http_request_simple",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "missing_data_handler",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_to_datetime",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "dataframe_select_dtypes",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_drop_duplicates",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_duplicated",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_astype",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_round",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_clip",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_replace",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_astype_category",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "series_cat_accessor",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_str_strip",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "pandas_str_replace",
+    "category": "pandas",
+    "module": "Data Cleaning & Types"
+  },
+  {
+    "type": "dataframe_data_selector",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "pandas_sort_values",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "pandas_drop",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "pandas_set_index",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "pandas_reset_index",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "pandas_reindex",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "pandas_sort_index",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "dataframe_droplevel",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "dataframe_set_names",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "pandas_isin",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "pandas_where",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "pandas_mask",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "dataframe_xs",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "data_structures_record_define_dataclass_auto",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "data_structures_record_define_namedtuple_annotated",
+    "category": "pandas",
+    "module": "Selection & Filtering"
+  },
+  {
+    "type": "combine_dataframes",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_pivot_table",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_rename",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_get_dummies",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_factorize",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_squeeze",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_compare",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_merge_advanced",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_pivot",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_melt",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_explode",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_transpose",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_crosstab",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "series_map",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "pandas_stack_unstack",
+    "category": "pandas",
+    "module": "Data Manipulation (Join/Reshape)"
+  },
+  {
+    "type": "series_str_accessor",
+    "category": "pandas",
+    "module": "String & Date/Time Operations"
+  },
+  {
+    "type": "timeseries_dt_accessor_unified",
+    "category": "pandas",
+    "module": "String & Date/Time Operations"
+  },
+  {
+    "type": "pandas_groupby",
+    "category": "pandas",
+    "module": "Analysis: Grouping & Aggregation"
+  },
+  {
+    "type": "dataframe_simple_statistic",
+    "category": "pandas",
+    "module": "Analysis: Grouping & Aggregation"
+  },
+  {
+    "type": "pandas_corr",
+    "category": "pandas",
+    "module": "Analysis: Grouping & Aggregation"
+  },
+  {
+    "type": "pandas_apply",
+    "category": "pandas",
+    "module": "Analysis: Grouping & Aggregation"
+  },
+  {
+    "type": "dataframe_applymap",
+    "category": "pandas",
+    "module": "Analysis: Grouping & Aggregation"
+  },
+  {
+    "type": "pandas_windowing",
+    "category": "pandas",
+    "module": "Analysis: Time Series & Windows"
+  },
+  {
+    "type": "pandas_resample",
+    "category": "pandas",
+    "module": "Analysis: Time Series & Windows"
+  },
+  {
+    "type": "pandas_time_series_operations",
+    "category": "pandas",
+    "module": "Analysis: Time Series & Windows"
+  },
+  {
+    "type": "pandas_first_last",
+    "category": "pandas",
+    "module": "Analysis: Time Series & Windows"
+  },
+  {
+    "type": "pandas_date_offset",
+    "category": "pandas",
+    "module": "Analysis: Time Series & Windows"
+  },
+  {
+    "type": "pandas_set_freq",
+    "category": "pandas",
+    "module": "Analysis: Time Series & Windows"
+  },
+  {
+    "type": "pandas_plot",
+    "category": "pandas",
+    "module": "Reporting & Utility"
+  },
+  {
+    "type": "pandas_manage_option",
+    "category": "pandas",
+    "module": "Reporting & Utility"
+  },
+  {
+    "type": "pandas_to_numpy",
+    "category": "pandas",
+    "module": "Reporting & Utility"
+  },
+  {
+    "type": "dataframe_pipe",
+    "category": "pandas",
+    "module": "Reporting & Utility"
+  },
+  {
+    "type": "pandas_eval",
+    "category": "pandas",
+    "module": "Reporting & Utility"
+  },
+  {
+    "type": "dataframe_iterrows",
+    "category": "pandas",
+    "module": "Reporting & Utility"
+  },
+  {
+    "type": "dataframe_itertuples",
+    "category": "pandas",
+    "module": "Reporting & Utility"
+  },
+  {
+    "type": "dataframe_items",
+    "category": "pandas",
+    "module": "Reporting & Utility"
+  },
+  {
+    "type": "numpy_array",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_arange",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_reshape",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_zeros",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_ones",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_concatenate",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_vstack",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_hstack",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_split",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_sum",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_mean",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_std",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_dot",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_elementwise_op",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_indexing",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "numpy_slicing",
+    "category": "numpy",
+    "module": "Array"
+  },
+  {
+    "type": "matplotlib_plot",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_scatter",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_bar",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_hist",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_pie",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_imshow",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_show",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_figure",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_subplot",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_subplots",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_title",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_xlabel",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_ylabel",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_legend",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_grid",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_xlim",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_ylim",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_savefig",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "matplotlib_tight_layout",
+    "category": "matplotlib",
+    "module": "Plotting"
+  },
+  {
+    "type": "sklearn_standard_scaler",
+    "category": "scikit_learn",
+    "module": "Preprocessing"
+  },
+  {
+    "type": "sklearn_min_max_scaler",
+    "category": "scikit_learn",
+    "module": "Preprocessing"
+  },
+  {
+    "type": "sklearn_one_hot_encoder",
+    "category": "scikit_learn",
+    "module": "Preprocessing"
+  },
+  {
+    "type": "sklearn_label_encoder",
+    "category": "scikit_learn",
+    "module": "Preprocessing"
+  },
+  {
+    "type": "sklearn_train_test_split",
+    "category": "scikit_learn",
+    "module": "Model Selection"
+  },
+  {
+    "type": "sklearn_grid_search_cv",
+    "category": "scikit_learn",
+    "module": "Model Selection"
+  },
+  {
+    "type": "sklearn_pipeline",
+    "category": "scikit_learn",
+    "module": "Pipelines"
+  },
+  {
+    "type": "sklearn_random_forest_classifier",
+    "category": "scikit_learn",
+    "module": "Models"
+  },
+  {
+    "type": "sklearn_logistic_regression",
+    "category": "scikit_learn",
+    "module": "Models"
+  },
+  {
+    "type": "sklearn_k_neighbors_classifier",
+    "category": "scikit_learn",
+    "module": "Models"
+  },
+  {
+    "type": "sklearn_svc",
+    "category": "scikit_learn",
+    "module": "Models"
+  },
+  {
+    "type": "sklearn_linear_regression",
+    "category": "scikit_learn",
+    "module": "Models"
+  },
+  {
+    "type": "sklearn_ridge_regression",
+    "category": "scikit_learn",
+    "module": "Models"
+  },
+  {
+    "type": "sklearn_svr",
+    "category": "scikit_learn",
+    "module": "Models"
+  },
+  {
+    "type": "sklearn_kmeans",
+    "category": "scikit_learn",
+    "module": "Models"
+  },
+  {
+    "type": "sklearn_accuracy_score",
+    "category": "scikit_learn",
+    "module": "Metrics"
+  },
+  {
+    "type": "sklearn_precision_score",
+    "category": "scikit_learn",
+    "module": "Metrics"
+  },
+  {
+    "type": "sklearn_recall_score",
+    "category": "scikit_learn",
+    "module": "Metrics"
+  },
+  {
+    "type": "sklearn_f1_score",
+    "category": "scikit_learn",
+    "module": "Metrics"
+  },
+  {
+    "type": "sklearn_confusion_matrix",
+    "category": "scikit_learn",
+    "module": "Metrics"
+  },
+  {
+    "type": "sklearn_mean_squared_error",
+    "category": "scikit_learn",
+    "module": "Metrics"
+  },
+  {
+    "type": "sklearn_r2_score",
+    "category": "scikit_learn",
+    "module": "Metrics"
+  },
+  {
+    "type": "tensorflow_keras_sequential_model",
+    "category": "tensorflow",
+    "module": "Keras Core"
+  },
+  {
+    "type": "tensorflow_keras_compile_model",
+    "category": "tensorflow",
+    "module": "Keras Core"
+  },
+  {
+    "type": "tensorflow_keras_fit_model",
+    "category": "tensorflow",
+    "module": "Keras Core"
+  },
+  {
+    "type": "tensorflow_keras_add_dense_layer",
+    "category": "tensorflow",
+    "module": "Layers"
+  },
+  {
+    "type": "keras_layer_conv2d",
+    "category": "tensorflow",
+    "module": "Layers"
+  },
+  {
+    "type": "keras_layer_maxpooling2d",
+    "category": "tensorflow",
+    "module": "Layers"
+  },
+  {
+    "type": "keras_layer_flatten",
+    "category": "tensorflow",
+    "module": "Layers"
+  },
+  {
+    "type": "keras_layer_dropout",
+    "category": "tensorflow",
+    "module": "Layers"
+  },
+  {
+    "type": "keras_layer_embedding",
+    "category": "tensorflow",
+    "module": "Layers"
+  },
+  {
+    "type": "keras_layer_lstm",
+    "category": "tensorflow",
+    "module": "Layers"
+  },
+  {
+    "type": "keras_save_model",
+    "category": "tensorflow",
+    "module": "Model Management"
+  },
+  {
+    "type": "keras_load_model",
+    "category": "tensorflow",
+    "module": "Model Management"
+  },
+  {
+    "type": "keras_model_to_json",
+    "category": "tensorflow",
+    "module": "Model Management"
+  },
+  {
+    "type": "keras_model_from_json",
+    "category": "tensorflow",
+    "module": "Model Management"
+  },
+  {
+    "type": "keras_callback_earlystopping",
+    "category": "tensorflow",
+    "module": "Callbacks"
+  },
+  {
+    "type": "keras_callback_modelcheckpoint",
+    "category": "tensorflow",
+    "module": "Callbacks"
+  },
+  {
+    "type": "keras_image_dataset_from_directory",
+    "category": "tensorflow",
+    "module": "Data Loading"
+  },
+  {
+    "type": "torch_tensor",
+    "category": "pytorch",
+    "module": "Tensors"
+  },
+  {
+    "type": "torch_tensor_shape",
+    "category": "pytorch",
+    "module": "Tensors"
+  },
+  {
+    "type": "torch_tensor_reshape",
+    "category": "pytorch",
+    "module": "Tensors"
+  },
+  {
+    "type": "torch_zeros",
+    "category": "pytorch",
+    "module": "Tensors"
+  },
+  {
+    "type": "torch_ones",
+    "category": "pytorch",
+    "module": "Tensors"
+  },
+  {
+    "type": "torch_randn",
+    "category": "pytorch",
+    "module": "Tensors"
+  },
+  {
+    "type": "torch_nn_module",
+    "category": "pytorch",
+    "module": "NN Layers"
+  },
+  {
+    "type": "torch_nn_linear",
+    "category": "pytorch",
+    "module": "NN Layers"
+  },
+  {
+    "type": "torch_nn_conv2d",
+    "category": "pytorch",
+    "module": "NN Layers"
+  },
+  {
+    "type": "torch_nn_maxpool2d",
+    "category": "pytorch",
+    "module": "NN Layers"
+  },
+  {
+    "type": "torch_nn_relu",
+    "category": "pytorch",
+    "module": "NN Layers"
+  },
+  {
+    "type": "torch_nn_dropout",
+    "category": "pytorch",
+    "module": "NN Layers"
+  },
+  {
+    "type": "torch_nn_embedding",
+    "category": "pytorch",
+    "module": "NN Layers"
+  },
+  {
+    "type": "torch_nn_lstm",
+    "category": "pytorch",
+    "module": "NN Layers"
+  },
+  {
+    "type": "torch_custom_dataset",
+    "category": "pytorch",
+    "module": "Data"
+  },
+  {
+    "type": "torch_dataloader",
+    "category": "pytorch",
+    "module": "Data"
+  },
+  {
+    "type": "torch_train_loop",
+    "category": "pytorch",
+    "module": "Training"
+  },
+  {
+    "type": "torch_loss_function",
+    "category": "pytorch",
+    "module": "Training"
+  },
+  {
+    "type": "torch_optimizer",
+    "category": "pytorch",
+    "module": "Training"
+  },
+  {
+    "type": "torch_save",
+    "category": "pytorch",
+    "module": "Model Management"
+  },
+  {
+    "type": "torch_load",
+    "category": "pytorch",
+    "module": "Model Management"
+  },
+  {
+    "type": "cv2_imread",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_imreadmulti",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_imwrite",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_imwritemulti",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_imshow",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_waitkey",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_destroyallwindows",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_destroywindow",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_videocapture",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_videowriter",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_read",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_write",
+    "category": "opencv",
+    "module": "Image I/O & Video I/O"
+  },
+  {
+    "type": "cv2_cvtColor",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_split",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_merge",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_splitChannels",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_mergeChannels",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_threshold",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_adaptiveThreshold",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_BGR2GRAY",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_BGR2RGB",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_BGR2HSV",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_BGR2Lab",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_BGR2XYZ",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_BGR2YUV",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_BGR2YCrCb",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_HSV2BGR",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_Lab2BGR",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_XYZ2BGR",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_YUV2BGR",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_COLOR_YCrCb2BGR",
+    "category": "opencv",
+    "module": "Color / Color Space Conversion"
+  },
+  {
+    "type": "cv2_blur",
+    "category": "opencv",
+    "module": "Filters & Smoothing"
+  },
+  {
+    "type": "cv2_gaussianBlur",
+    "category": "opencv",
+    "module": "Filters & Smoothing"
+  },
+  {
+    "type": "cv2_medianBlur",
+    "category": "opencv",
+    "module": "Filters & Smoothing"
+  },
+  {
+    "type": "cv2_bilateralFilter",
+    "category": "opencv",
+    "module": "Filters & Smoothing"
+  },
+  {
+    "type": "cv2_boxFilter",
+    "category": "opencv",
+    "module": "Filters & Smoothing"
+  },
+  {
+    "type": "cv2_filter2D",
+    "category": "opencv",
+    "module": "Filters & Smoothing"
+  },
+  {
+    "type": "cv2_fastNlMeansDenoising",
+    "category": "opencv",
+    "module": "Filters & Smoothing"
+  },
+  {
+    "type": "cv2_fastNlMeansDenoisingColored",
+    "category": "opencv",
+    "module": "Filters & Smoothing"
+  },
+  {
+    "type": "cv2_resize",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_rotate",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_flip",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_warpAffine",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_warpPerspective",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_getRotationMatrix2D",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_getAffineTransform",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_getPerspectiveTransform",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_perspectiveTransform",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_getRectSubPix",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_remap",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_pyrDown",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_pyrUp",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_buildPyramid",
+    "category": "opencv",
+    "module": "Geometric Transforms"
+  },
+  {
+    "type": "cv2_canny",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_sobel",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_laplacian",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_houghLines",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_houghCircles",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_goodFeaturesToTrack",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_calcOpticalFlowPyrLK",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_calcOpticalFlowFarneback",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_cornerHarris",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_cornerSubPix",
+    "category": "opencv",
+    "module": "Edge / Feature Detection"
+  },
+  {
+    "type": "cv2_line",
+    "category": "opencv",
+    "module": "Drawing & Annotation"
+  },
+  {
+    "type": "cv2_rectangle",
+    "category": "opencv",
+    "module": "Drawing & Annotation"
+  },
+  {
+    "type": "cv2_circle",
+    "category": "opencv",
+    "module": "Drawing & Annotation"
+  },
+  {
+    "type": "cv2_ellipse",
+    "category": "opencv",
+    "module": "Drawing & Annotation"
+  },
+  {
+    "type": "cv2_putText",
+    "category": "opencv",
+    "module": "Drawing & Annotation"
+  },
+  {
+    "type": "cv2_polylines",
+    "category": "opencv",
+    "module": "Drawing & Annotation"
+  },
+  {
+    "type": "cv2_drawMarker",
+    "category": "opencv",
+    "module": "Drawing & Annotation"
+  },
+  {
+    "type": "cv2_erode",
+    "category": "opencv",
+    "module": "Morphology"
+  },
+  {
+    "type": "cv2_dilate",
+    "category": "opencv",
+    "module": "Morphology"
+  },
+  {
+    "type": "cv2_morphologyEx",
+    "category": "opencv",
+    "module": "Morphology"
+  },
+  {
+    "type": "cv2_getStructuringElement",
+    "category": "opencv",
+    "module": "Morphology"
+  },
+  {
+    "type": "cv2_findContours",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_drawContours",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_contourArea",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_arcLength",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_approxPolyDP",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_minEnclosingCircle",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_boundingRect",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_minAreaRect",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_boxPoints",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_fitEllipse",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_fitLine",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_moments",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_pointPolygonTest",
+    "category": "opencv",
+    "module": "Contours & Shape Analysis"
+  },
+  {
+    "type": "cv2_inRange",
+    "category": "opencv",
+    "module": "Masking & Bitwise Operations"
+  },
+  {
+    "type": "cv2_bitwise_and",
+    "category": "opencv",
+    "module": "Masking & Bitwise Operations"
+  },
+  {
+    "type": "cv2_bitwise_or",
+    "category": "opencv",
+    "module": "Masking & Bitwise Operations"
+  },
+  {
+    "type": "cv2_bitwise_xor",
+    "category": "opencv",
+    "module": "Masking & Bitwise Operations"
+  },
+  {
+    "type": "cv2_bitwise_not",
+    "category": "opencv",
+    "module": "Masking & Bitwise Operations"
+  },
+  {
+    "type": "cv2_copyTo",
+    "category": "opencv",
+    "module": "Masking & Bitwise Operations"
+  },
+  {
+    "type": "cv2_subtract",
+    "category": "opencv",
+    "module": "Masking & Bitwise Operations"
+  },
+  {
+    "type": "cv2_add",
+    "category": "opencv",
+    "module": "Masking & Bitwise Operations"
+  },
+  {
+    "type": "cv2_convertScaleAbs",
+    "category": "opencv",
+    "module": "Advanced Utilities & Image Processing"
+  },
+  {
+    "type": "cv2_addWeighted",
+    "category": "opencv",
+    "module": "Advanced Utilities & Image Processing"
+  },
+  {
+    "type": "cv2_resizeCanvas",
+    "category": "opencv",
+    "module": "Advanced Utilities & Image Processing"
+  },
+  {
+    "type": "cv2_normalize",
+    "category": "opencv",
+    "module": "Advanced Utilities & Image Processing"
+  },
+  {
+    "type": "cv2_equalizeHist",
+    "category": "opencv",
+    "module": "Advanced Utilities & Image Processing"
+  },
+  {
+    "type": "cv2_calcHist",
+    "category": "opencv",
+    "module": "Advanced Utilities & Image Processing"
+  },
+  {
+    "type": "cv2_compareHist",
+    "category": "opencv",
+    "module": "Advanced Utilities & Image Processing"
+  },
+  {
+    "type": "pillow_image_create",
+    "category": "image_manipulation",
+    "module": "Pillow"
+  },
+  {
+    "type": "pillow_draw_line",
+    "category": "image_manipulation",
+    "module": "Pillow"
+  },
+  {
+    "type": "pillow_draw_rectangle",
+    "category": "image_manipulation",
+    "module": "Pillow"
+  },
+  {
+    "type": "pillow_draw_ellipse",
+    "category": "image_manipulation",
+    "module": "Pillow"
+  },
+  {
+    "type": "pillow_draw_text",
+    "category": "image_manipulation",
+    "module": "Pillow"
+  },
+  {
+    "type": "pillow_image_filter",
+    "category": "image_manipulation",
+    "module": "Pillow"
+  },
+  {
+    "type": "transformers_pipeline",
+    "category": "transformers",
+    "module": "Pipelines"
+  },
+  {
+    "type": "requests_get",
+    "category": "web",
+    "module": "Requests"
+  },
+  {
+    "type": "fastapi_post_endpoint",
+    "category": "web",
+    "module": "FastAPI"
+  },
+  {
+    "type": "json_loads",
+    "category": "standard_library",
+    "module": "JSON"
+  },
+  {
+    "type": "collections_counter_create",
+    "category": "standard_library",
+    "module": "Collections"
+  },
+  {
+    "type": "collections_deque_create",
+    "category": "standard_library",
+    "module": "Collections"
+  },
+  {
+    "type": "collections_deque_append",
+    "category": "standard_library",
+    "module": "Collections"
+  },
+  {
+    "type": "collections_deque_appendleft",
+    "category": "standard_library",
+    "module": "Collections"
+  },
+  {
+    "type": "collections_deque_pop",
+    "category": "standard_library",
+    "module": "Collections"
+  },
+  {
+    "type": "collections_deque_popleft",
+    "category": "standard_library",
+    "module": "Collections"
+  },
+  {
+    "type": "collections_defaultdict_create",
+    "category": "standard_library",
+    "module": "Collections"
+  },
+  {
+    "type": "datetime_now",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_date",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_time",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_datetime",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_timedelta",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_strftime",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_strptime",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_fromtimestamp",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_timestamp",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_getattr",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_timezone",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "datetime_astimezone",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "time_sleep",
+    "category": "standard_library",
+    "module": "DateTime"
+  },
+  {
+    "type": "itertools_chain",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "itertools_permutations",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "itertools_combinations",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "itertools_product",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "itertools_count",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "itertools_cycle",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "itertools_repeat",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "itertools_takewhile",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "itertools_dropwhile",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "itertools_filterfalse",
+    "category": "standard_library",
+    "module": "Itertools"
+  },
+  {
+    "type": "re_compile",
+    "category": "standard_library",
+    "module": "Regex"
+  },
+  {
+    "type": "re_search",
+    "category": "standard_library",
+    "module": "Regex"
+  },
+  {
+    "type": "re_match",
+    "category": "standard_library",
+    "module": "Regex"
+  },
+  {
+    "type": "re_findall",
+    "category": "standard_library",
+    "module": "Regex"
+  },
+  {
+    "type": "re_sub",
+    "category": "standard_library",
+    "module": "Regex"
+  },
+  {
+    "type": "re_split",
+    "category": "standard_library",
+    "module": "Regex"
+  },
+  {
+    "type": "re_escape",
+    "category": "standard_library",
+    "module": "Regex"
+  },
+  {
+    "type": "re_match_group",
+    "category": "standard_library",
+    "module": "Regex"
+  },
+  {
+    "type": "re_match_groups",
+    "category": "standard_library",
+    "module": "Regex"
+  },
+  {
+    "type": "os_path_join",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "os_path_exists",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "sys_argv",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "sys_platform",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "system_sys_exit",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "os_path_basename",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "os_path_dirname",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "os_path_splitext",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "os_mkdir",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "os_makedirs",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "os_rename",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "os_path_isfile",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "os_path_isdir",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "system_os_getcwd",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "system_pathlib_util",
+    "category": "standard_library",
+    "module": "System"
+  },
+  {
+    "type": "beautifulsoup_parse_html",
+    "category": "web_scraping",
+    "module": "BeautifulSoup"
+  },
+  {
+    "type": "beautifulsoup_find",
+    "category": "web_scraping",
+    "module": "BeautifulSoup"
+  },
+  {
+    "type": "beautifulsoup_find_all",
+    "category": "web_scraping",
+    "module": "BeautifulSoup"
+  },
+  {
+    "type": "beautifulsoup_get_text",
+    "category": "web_scraping",
+    "module": "BeautifulSoup"
+  },
+  {
+    "type": "beautifulsoup_get_attribute",
+    "category": "web_scraping",
+    "module": "BeautifulSoup"
+  },
+  {
+    "type": "unittest_main",
+    "category": "tools_testing",
+    "module": "Unittest"
+  },
+  {
+    "type": "unittest_testcase",
+    "category": "tools_testing",
+    "module": "Unittest"
+  },
+  {
+    "type": "unittest_testfunction",
+    "category": "tools_testing",
+    "module": "Unittest"
+  },
+  {
+    "type": "unittest_assert_equal",
+    "category": "tools_testing",
+    "module": "Unittest"
+  },
+  {
+    "type": "unittest_assert_true",
+    "category": "tools_testing",
+    "module": "Unittest"
+  },
+  {
+    "type": "unittest_assert_false",
+    "category": "tools_testing",
+    "module": "Unittest"
+  },
+  {
+    "type": "unittest_assert_raises",
+    "category": "tools_testing",
+    "module": "Unittest"
+  },
+  {
+    "type": "argparse_import",
+    "category": "tools_testing",
+    "module": "ArgParse"
+  },
+  {
+    "type": "argparse_create_parser",
+    "category": "tools_testing",
+    "module": "ArgParse"
+  },
+  {
+    "type": "argparse_add_argument",
+    "category": "tools_testing",
+    "module": "ArgParse"
+  },
+  {
+    "type": "argparse_parse_args",
+    "category": "tools_testing",
+    "module": "ArgParse"
+  },
+  {
+    "type": "argparse_get_arg",
+    "category": "tools_testing",
+    "module": "ArgParse"
+  },
+  {
+    "type": "turtle_move_turn",
+    "category": "turtle",
+    "module": "Motion & State"
+  },
+  {
+    "type": "turtle_goto",
+    "category": "turtle",
+    "module": "Motion & State"
+  },
+  {
+    "type": "turtle_home",
+    "category": "turtle",
+    "module": "Motion & State"
+  },
+  {
+    "type": "turtle_set_property",
+    "category": "turtle",
+    "module": "Motion & State"
+  },
+  {
+    "type": "turtle_get_property",
+    "category": "turtle",
+    "module": "Motion & State"
+  },
+  {
+    "type": "turtle_distance_to",
+    "category": "turtle",
+    "module": "Motion & State"
+  },
+  {
+    "type": "turtle_towards",
+    "category": "turtle",
+    "module": "Motion & State"
+  },
+  {
+    "type": "turtle_position",
+    "category": "turtle",
+    "module": "Motion & State"
+  },
+  {
+    "type": "turtle_pen_control",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_isdown",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_pen_size",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_pen_color",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_fill_color",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_color_both",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_begin_fill",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_end_fill",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_filling",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_write",
+    "category": "turtle",
+    "module": "Pen & Drawing"
+  },
+  {
+    "type": "turtle_setup",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_screensize",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_bgcolor",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_bgpic",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_title",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_mode",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_colormode",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_tracer",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_update",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_delay",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_clearscreen",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_resetscreen",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_done",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_exitonclick",
+    "category": "turtle",
+    "module": "Screen & Window Control"
+  },
+  {
+    "type": "turtle_listen",
+    "category": "turtle",
+    "module": "Event Handling & Input"
+  },
+  {
+    "type": "turtle_onkey",
+    "category": "turtle",
+    "module": "Event Handling & Input"
+  },
+  {
+    "type": "turtle_onkeyrelease",
+    "category": "turtle",
+    "module": "Event Handling & Input"
+  },
+  {
+    "type": "turtle_onclick",
+    "category": "turtle",
+    "module": "Event Handling & Input"
+  },
+  {
+    "type": "turtle_onscreenclick",
+    "category": "turtle",
+    "module": "Event Handling & Input"
+  },
+  {
+    "type": "turtle_onrelease",
+    "category": "turtle",
+    "module": "Event Handling & Input"
+  },
+  {
+    "type": "turtle_ontimer",
+    "category": "turtle",
+    "module": "Event Handling & Input"
+  },
+  {
+    "type": "turtle_textinput",
+    "category": "turtle",
+    "module": "Event Handling & Input"
+  },
+  {
+    "type": "turtle_numinput",
+    "category": "turtle",
+    "module": "Event Handling & Input"
+  },
+  {
+    "type": "turtle_begin_poly",
+    "category": "turtle",
+    "module": "Polygon Recording"
+  },
+  {
+    "type": "turtle_end_poly",
+    "category": "turtle",
+    "module": "Polygon Recording"
+  },
+  {
+    "type": "turtle_get_poly",
+    "category": "turtle",
+    "module": "Polygon Recording"
+  },
+  {
+    "type": "turtle_register_shape",
+    "category": "turtle",
+    "module": "Polygon Recording"
+  }
+]
