@@ -1,0 +1,43 @@
+{
+  "inputs": [
+    { "name": "math", "type": "int" },
+    { "name": "science", "type": "int" },
+    { "name": "average", "type": "int" }
+  ],
+  "derived": [
+    {
+      "name": "math_score",
+      "expression": { "op": ">=", "args": ["math", 70] }
+    },
+    {
+      "name": "science_score",
+      "expression": { "op": ">=", "args": ["science", 65] }
+    },
+    {
+      "name": "average_score",
+      "expression": { "op": ">=", "args": ["average", 75] }
+    }
+  ],
+  "condition": {
+    "op": "and",
+    "conditions": [
+      {
+        "left": "math_score",
+        "op": "and",
+        "conditions": [
+          {
+            "left": "science_score",
+            "op": "and",
+            "conditions": [
+              { "left": "average_score", "op": "or", "conditions": [] }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "actions": {
+    "then": [{ "type": "print", "value": "yes" }],
+    "else": [{ "type": "print", "value": "no" }]
+  }
+}

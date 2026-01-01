@@ -1,0 +1,40 @@
+{
+  "inputs": [
+    { "name": "written_score", "type": "int" },
+    { "name": "interview_score", "type": "int" },
+    { "name": "total_score", "type": "int" }
+  ],
+  "derived": [
+    {
+      "name": "written_score_plus_one",
+      "expression": { "op": "+", "args": ["written_score", 1] }
+    },
+    {
+      "name": "interview_score_plus_one",
+      "expression": { "op": "+", "args": ["interview_score", 1] }
+    },
+    {
+      "name": "total_score_plus_written_score_plus_interview_score",
+      "expression": {
+        "op": "+",
+        "args": ["total_score", "written_score", "interview_score"]
+      }
+    }
+  ],
+  "condition": {
+    "op": "and",
+    "conditions": [
+      { "left": "written_score_plus_one", "op": ">=", "right": 60 },
+      { "left": "interview_score_plus_one", "op": ">=", "right": 15 },
+      {
+        "left": "total_score_plus_written_score_plus_interview_score",
+        "op": "<=",
+        "right": 100
+      }
+    ]
+  },
+  "actions": {
+    "then": [{ "type": "print", "value": "yes" }],
+    "else": [{ "type": "print", "value": "no" }]
+  }
+}

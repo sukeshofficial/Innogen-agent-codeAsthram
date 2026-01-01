@@ -1,0 +1,15 @@
+{
+  "inputs": [{ "name": "a", "type": "int" }],
+  "derived": [
+    { "name": "x", "expression": { "op": "+", "args": ["a", 1] } },
+    { "name": "y", "expression": { "op": "+", "args": ["a", 5] } }
+  ],
+  "condition": {
+    "op": "and",
+    "conditions": [{ "left": "x", "op": "<", "right": "y" }]
+  },
+  "actions": {
+    "then": [{ "type": "print", "value": "yes" }],
+    "else": [{ "type": "print", "value": "no" }]
+  }
+}
