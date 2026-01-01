@@ -1,0 +1,115 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+    <block type="essentials_var_set">
+        <field name="VAR">written_score</field>
+        <value name="VALUE">
+            <block type="essentials_safe_input">
+                <field name="TYPE">str</field>
+            </block>
+        </value>
+        <next>
+            <block type="essentials_var_set">
+                <field name="VAR">interview_score</field>
+                <value name="VALUE">
+                    <block type="essentials_safe_input">
+                        <field name="TYPE">str</field>
+                    </block>
+                </value>
+                <next>
+                    <block type="essentials_var_set">
+                        <field name="VAR">total</field>
+                        <value name="VALUE">
+                            <block type="essentials_num_arithmetic">
+                                <field name="OP">+</field>
+                                <value name="A">
+                                    <block type="essentials_var_get">
+                                        <field name="VAR">written_score</field>
+                                    </block>
+                                </value>
+                                <value name="B">
+                                    <block type="essentials_var_get">
+                                        <field name="VAR">interview_score</field>
+                                    </block>
+                                </value>
+                            </block>
+                        </value>
+                        <next>
+                            <block type="control_if_truthy">
+                                <value name="EXPR">
+                                    <block type="essentials_logic_and">
+                                        <value name="A">
+                                            <block type="essentials_compare">
+                                                <field name="OP">GTE</field>
+                                                <value name="A">
+                                                    <block type="essentials_var_get">
+                                                        <field name="VAR">written_score</field>
+                                                    </block>
+                                                </value>
+                                                <value name="B">
+                                                    <block type="essentials_num_literal">
+                                                        <field name="NUM">60</field>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </value>
+                                        <value name="B">
+                                            <block type="essentials_logic_and">
+                                                <value name="A">
+                                                    <block type="essentials_compare">
+                                                        <field name="OP">GTE</field>
+                                                        <value name="A">
+                                                            <block type="essentials_var_get">
+                                                                <field name="VAR">interview_score</field>
+                                                            </block>
+                                                        </value>
+                                                        <value name="B">
+                                                            <block type="essentials_num_literal">
+                                                                <field name="NUM">15</field>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </value>
+                                                <value name="B">
+                                                    <block type="essentials_compare">
+                                                        <field name="OP">LTE</field>
+                                                        <value name="A">
+                                                            <block type="essentials_var_get">
+                                                                <field name="VAR">total</field>
+                                                            </block>
+                                                        </value>
+                                                        <value name="B">
+                                                            <block type="essentials_num_literal">
+                                                                <field name="NUM">100</field>
+                                                            </block>
+                                                        </value>
+                                                    </block>
+                                                </value>
+                                            </block>
+                                        </value>
+                                    </block>
+                                </value>
+                                <statement name="THEN">
+                                    <block type="text_print">
+                                        <value name="TEXT">
+                                            <block type="text_literal">
+                                                <field name="TEXT">qualified</field>
+                                            </block>
+                                        </value>
+                                    </block>
+                                </statement>
+                                <statement name="ELSE">
+                                    <block type="text_print">
+                                        <value name="TEXT">
+                                            <block type="text_literal">
+                                                <field name="TEXT">not qualified</field>
+                                            </block>
+                                        </value>
+                                    </block>
+                                </statement>
+                            </block>
+                        </next>
+                    </block>
+                </next>
+            </block>
+        </next>
+    </block>
+</xml>

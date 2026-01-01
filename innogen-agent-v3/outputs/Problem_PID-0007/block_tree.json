@@ -1,0 +1,180 @@
+{
+  "type": "essentials_var_set",
+  "fields": {
+    "VAR": "range1_start"
+  },
+  "value_inputs": {
+    "VALUE": {
+      "type": "essentials_safe_input",
+      "fields": {
+        "TYPE": "str"
+      }
+    }
+  },
+  "next": {
+    "type": "essentials_var_set",
+    "fields": {
+      "VAR": "range1_end"
+    },
+    "value_inputs": {
+      "VALUE": {
+        "type": "essentials_safe_input",
+        "fields": {
+          "TYPE": "str"
+        }
+      }
+    },
+    "next": {
+      "type": "essentials_var_set",
+      "fields": {
+        "VAR": "range2_start"
+      },
+      "value_inputs": {
+        "VALUE": {
+          "type": "essentials_safe_input",
+          "fields": {
+            "TYPE": "str"
+          }
+        }
+      },
+      "next": {
+        "type": "essentials_var_set",
+        "fields": {
+          "VAR": "range2_end"
+        },
+        "value_inputs": {
+          "VALUE": {
+            "type": "essentials_safe_input",
+            "fields": {
+              "TYPE": "str"
+            }
+          }
+        },
+        "next": {
+          "type": "control_if_truthy",
+          "value_inputs": {
+            "EXPR": {
+              "type": "essentials_logic_and",
+              "value_inputs": {
+                "A": {
+                  "type": "essentials_compare",
+                  "fields": {
+                    "OP": "LTE"
+                  },
+                  "value_inputs": {
+                    "A": {
+                      "type": "essentials_var_get",
+                      "fields": {
+                        "VAR": "(range1_start"
+                      }
+                    },
+                    "B": {
+                      "type": "essentials_var_get",
+                      "fields": {
+                        "VAR": "range2_start)"
+                      }
+                    }
+                  }
+                },
+                "B": {
+                  "type": "essentials_logic_and",
+                  "value_inputs": {
+                    "A": {
+                      "type": "essentials_logic_or",
+                      "value_inputs": {
+                        "A": {
+                          "type": "essentials_compare",
+                          "fields": {
+                            "OP": "GTE"
+                          },
+                          "value_inputs": {
+                            "A": {
+                              "type": "essentials_var_get",
+                              "fields": {
+                                "VAR": "(range1_end"
+                              }
+                            },
+                            "B": {
+                              "type": "essentials_var_get",
+                              "fields": {
+                                "VAR": "range2_end)"
+                              }
+                            }
+                          }
+                        },
+                        "B": {
+                          "type": "essentials_compare",
+                          "fields": {
+                            "OP": "GTE"
+                          },
+                          "value_inputs": {
+                            "A": {
+                              "type": "essentials_var_get",
+                              "fields": {
+                                "VAR": "(range1_start"
+                              }
+                            },
+                            "B": {
+                              "type": "essentials_var_get",
+                              "fields": {
+                                "VAR": "range2_start)"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "B": {
+                      "type": "essentials_compare",
+                      "fields": {
+                        "OP": "LTE"
+                      },
+                      "value_inputs": {
+                        "A": {
+                          "type": "essentials_var_get",
+                          "fields": {
+                            "VAR": "(range1_end"
+                          }
+                        },
+                        "B": {
+                          "type": "essentials_var_get",
+                          "fields": {
+                            "VAR": "range2_end)"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "statement_inputs": {
+            "THEN": {
+              "type": "text_print",
+              "value_inputs": {
+                "TEXT": {
+                  "type": "text_literal",
+                  "fields": {
+                    "TEXT": "overlap"
+                  }
+                }
+              }
+            },
+            "ELSE": {
+              "type": "text_print",
+              "value_inputs": {
+                "TEXT": {
+                  "type": "text_literal",
+                  "fields": {
+                    "TEXT": "no_overlap"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

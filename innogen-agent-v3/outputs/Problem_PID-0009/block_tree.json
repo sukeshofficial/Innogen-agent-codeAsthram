@@ -1,0 +1,189 @@
+{
+  "type": "essentials_var_set",
+  "fields": {
+    "VAR": "side1"
+  },
+  "value_inputs": {
+    "VALUE": {
+      "type": "essentials_safe_input",
+      "fields": {
+        "TYPE": "str"
+      }
+    }
+  },
+  "next": {
+    "type": "essentials_var_set",
+    "fields": {
+      "VAR": "side2"
+    },
+    "value_inputs": {
+      "VALUE": {
+        "type": "essentials_safe_input",
+        "fields": {
+          "TYPE": "str"
+        }
+      }
+    },
+    "next": {
+      "type": "essentials_var_set",
+      "fields": {
+        "VAR": "side3"
+      },
+      "value_inputs": {
+        "VALUE": {
+          "type": "essentials_safe_input",
+          "fields": {
+            "TYPE": "str"
+          }
+        }
+      },
+      "next": {
+        "type": "essentials_var_set",
+        "fields": {
+          "VAR": "sum"
+        },
+        "value_inputs": {
+          "VALUE": {
+            "type": "essentials_num_arithmetic",
+            "fields": {
+              "OP": "+"
+            },
+            "value_inputs": {
+              "A": {
+                "type": "essentials_var_get",
+                "fields": {
+                  "VAR": "side1"
+                }
+              },
+              "B": {
+                "type": "essentials_var_get",
+                "fields": {
+                  "VAR": "side2 + side3"
+                }
+              }
+            }
+          }
+        },
+        "next": {
+          "type": "essentials_var_set",
+          "fields": {
+            "VAR": "incomplete"
+          },
+          "value_inputs": {
+            "VALUE": {
+              "type": "essentials_num_arithmetic",
+              "fields": {
+                "OP": "+"
+              },
+              "value_inputs": {
+                "A": {
+                  "type": "essentials_var_get",
+                  "fields": {
+                    "VAR": "side1"
+                  }
+                },
+                "B": {
+                  "type": "essentials_var_get",
+                  "fields": {
+                    "VAR": "side2 <= side3"
+                  }
+                }
+              }
+            }
+          },
+          "next": {
+            "type": "essentials_var_set",
+            "fields": {
+              "VAR": "incomplete"
+            },
+            "value_inputs": {
+              "VALUE": {
+                "type": "essentials_num_arithmetic",
+                "fields": {
+                  "OP": "+"
+                },
+                "value_inputs": {
+                  "A": {
+                    "type": "essentials_var_get",
+                    "fields": {
+                      "VAR": "side1"
+                    }
+                  },
+                  "B": {
+                    "type": "essentials_var_get",
+                    "fields": {
+                      "VAR": "side3 <= side2"
+                    }
+                  }
+                }
+              }
+            },
+            "next": {
+              "type": "essentials_var_set",
+              "fields": {
+                "VAR": "incomplete"
+              },
+              "value_inputs": {
+                "VALUE": {
+                  "type": "essentials_num_arithmetic",
+                  "fields": {
+                    "OP": "+"
+                  },
+                  "value_inputs": {
+                    "A": {
+                      "type": "essentials_var_get",
+                      "fields": {
+                        "VAR": "side2"
+                      }
+                    },
+                    "B": {
+                      "type": "essentials_var_get",
+                      "fields": {
+                        "VAR": "side3 <= side1"
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "type": "control_if_truthy",
+                "value_inputs": {
+                  "EXPR": {
+                    "type": "essentials_var_get",
+                    "fields": {
+                      "VAR": "incomplete"
+                    }
+                  }
+                },
+                "statement_inputs": {
+                  "THEN": {
+                    "type": "text_print",
+                    "value_inputs": {
+                      "TEXT": {
+                        "type": "text_literal",
+                        "fields": {
+                          "TEXT": "not a valid triangle"
+                        }
+                      }
+                    }
+                  },
+                  "ELSE": {
+                    "type": "text_print",
+                    "value_inputs": {
+                      "TEXT": {
+                        "type": "text_literal",
+                        "fields": {
+                          "TEXT": "valid triangle"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

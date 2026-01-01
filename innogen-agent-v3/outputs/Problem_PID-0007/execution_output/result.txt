@@ -1,0 +1,16 @@
+range1_start = None
+range1_end = None
+range2_start = None
+range2_end = None
+_range1_start = None
+range2_start_ = None
+_range1_end = None
+range2_end_ = None
+
+
+range1_start = (input(''))
+range1_end = (input(''))
+range2_start = (input(''))
+range2_end = (input(''))
+if _range1_start <= range2_start_ and (_range1_end >= range2_end_ or _range1_start >= range2_start_) and _range1_end <= range2_end_:
+  pass

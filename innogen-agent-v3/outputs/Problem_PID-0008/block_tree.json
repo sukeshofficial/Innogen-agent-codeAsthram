@@ -1,0 +1,52 @@
+{
+  "type": "essentials_var_set",
+  "fields": {
+    "VAR": "units"
+  },
+  "value_inputs": {
+    "VALUE": {
+      "type": "essentials_safe_input",
+      "fields": {
+        "TYPE": "str"
+      }
+    }
+  },
+  "next": {
+    "type": "essentials_var_set",
+    "fields": {
+      "VAR": "violation"
+    },
+    "value_inputs": {
+      "VALUE": {
+        "type": "essentials_var_get",
+        "fields": {
+          "VAR": "units < 200 or units > 500"
+        }
+      }
+    },
+    "next": {
+      "type": "control_if_truthy",
+      "value_inputs": {
+        "EXPR": {
+          "type": "essentials_var_get",
+          "fields": {
+            "VAR": "violation"
+          }
+        }
+      },
+      "statement_inputs": {
+        "THEN": {
+          "type": "text_print",
+          "value_inputs": {
+            "TEXT": {
+              "type": "text_literal",
+              "fields": {
+                "TEXT": "first value"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

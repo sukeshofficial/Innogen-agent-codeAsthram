@@ -1,0 +1,20 @@
+side1 = None
+side2 = None
+side3 = None
+sum2 = None
+incomplete = None
+side2___side3 = None
+side2__3C__side3 = None
+side3__3C__side2 = None
+side3__3C__side1 = None
+
+
+side1 = (input(''))
+side2 = (input(''))
+side3 = (input(''))
+sum2 = (side1 + side2___side3)
+incomplete = (side1 + side2__3C__side3)
+incomplete = (side1 + side3__3C__side2)
+incomplete = (side2 + side3__3C__side1)
+if incomplete:
+  pass

@@ -1,0 +1,17 @@
+math2 = None
+science = None
+average = None
+_math = None
+science____2 = None
+my_70_ = None
+_science = None
+my_65_ = None
+_average = None
+my_75_ = None
+
+
+math2 = (input(''))
+science = (input(''))
+average = (_math + science____2)
+if _math >= my_70_ and _science >= my_65_ and _average >= my_75_:
+  pass

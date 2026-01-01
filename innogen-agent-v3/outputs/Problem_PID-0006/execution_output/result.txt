@@ -1,0 +1,10 @@
+written_score = None
+interview_score = None
+total = None
+
+
+written_score = (input(''))
+interview_score = (input(''))
+total = (written_score + interview_score)
+if written_score >= 60 and interview_score >= 15 and total <= 100:
+  pass
